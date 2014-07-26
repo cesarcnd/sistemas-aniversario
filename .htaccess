@@ -1,0 +1,4 @@
+RewriteEngine on 
+RewriteCond $1 !^(index.php|intranet|wp-admin|resource|robots.txt|googlee2484f5fc909e792.html|BingSiteAuth.xml|sitemap.xml) 
+
+RewriteRule ^(.*)$ /sistemas-aniversario/index.php/$1 [L]
