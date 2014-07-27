@@ -3,6 +3,40 @@
 	background-color: #fff;
 	height: 60px;
 }
+.social_network.facebook,.social_network.twitter,.social_network.youtube{
+	background-color: #333;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.facebook{
+	background-position: 10px 4px;
+}
+.facebook:hover{
+	background-color: #3b5998;
+}
+.twitter{
+	background-position: -28px 4px;
+}
+.twitter:hover{
+	background-color: #3AA0EC;
+}
+.youtube{
+	background-position: -68px 4px;
+}
+.youtube:hover{
+	background-color: #cc181e;
+}
+#header .unjfsc{
+	margin-top: 6px;
+	width: 78%;
+}
+#header .social{
+	margin-left: 5px;
+	margin-top: 1px;
+}
 /*END HEADER*/
 /*STAR BROWSER*/
 #browser{
