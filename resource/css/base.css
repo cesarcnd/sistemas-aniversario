@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 section,article,figure,figcaption,aside,footer,nav{
     display: block;
@@ -11,4 +12,15 @@ section,article,figure,figcaption,aside,footer,nav{
 .b-body{
     margin: 0 auto;
     width: 1000px;
+}
+.display-inline{
+	display: inline-block;
+	vertical-align: middle;
+}
+ul,li{
+	list-style: none;
+}
+a,a:hover{
+	color: inherit;
+	text-decoration: none;
 }

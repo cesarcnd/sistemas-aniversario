@@ -1,35 +1,110 @@
+/*STAR HEADER*/
 #header{
-	background-color: #333;
+	background-color: #fff;
 	height: 60px;
 }
+/*END HEADER*/
+/*STAR BROWSER*/
 #browser{
-	background-color: #444;
-	height: 40px;
+	background-color: #2a809c;
+	height: 50px;
 }
+#browser ul li{
+	color:#fff;
+	display: inline-block;
+	margin: 0px 3px;
+	text-align: right;
+}
+#browser ul{
+	padding: 16px 0px 16px 0px;
+	text-align: right;
+}
+#browser ul li a{
+	padding: 5px 10px;
+}
+#browser ul li a:hover{
+	border-radius:5px;
+	background-color: #f5f5f5;
+	color: #2a809c;
+}
+/*END BROWSER*/
+/*STAR FRONT*/
 #front{
 	background-color: #000;
 	height:350px;
 }
+/*END FRONT*/
+/*STAR PUBLIC*/
 #public{
 	background-color: #555;
 	height: 115px;
 }
+/*END PUBLIC*/
 #first_block{
 	background-color: #888;
 	height: 360px;
 }
+/*STAR PROGRAMMING*/
+#programming{
+	background-color: #333;
+	height: 360px;
+	width: 333px;
+}
+/*END PROGRAMMING*/
+/*STAR AREA INFORMATIVE*/
+#informative{
+	background-color: #444;
+	height: 360px;
+	width: 334px;
+}
+/*END AREA INFORMATIVE*/
+/*STAR INSCRIPTION*/
+#inscription{
+	background-color: #666;
+	height: 360px;
+	width: 333px;
+}
+/*END INSCRIPTION*/
 #second_block{
 	background-color: #555;
 	height: 400px;
+}
+/*STAR NOTICE*/
+#notice{
+	background-color: #777;
+	height: 400px;
+	width: 667px;
+}
+/*END NOTICE*/
+#access_direct{
+	background-color: #555;
+	height: 400px;
+	width: 333px;
 }
 #third_block{
 	background-color: #111;
 	height: 420px;
 }
+/*STAR GALLERY IMAGE*/
+#image{
+	background-color: #333;
+	height: 420px;
+	width: 500px;
+}
+/*END GALLERY IMAGE*/
+/*STAR GALLERU VIDEO*/
+#video{
+	background-color: #444;
+	height: 420px;
+	width: 500px;
+}
+/*END GALLERY VIDEO*/
+/*STAR INSTITUTE*/
 #institute{
 	background-color: #444;
 	height: 130px;
 }
+/*END INSTITUTE*/
 #footer{
 	background-color: #222;
 	height: 285px;
