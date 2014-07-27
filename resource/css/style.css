@@ -1,0 +1,36 @@
+#header{
+	background-color: #333;
+	height: 60px;
+}
+#browser{
+	background-color: #444;
+	height: 40px;
+}
+#front{
+	background-color: #000;
+	height:350px;
+}
+#public{
+	background-color: #555;
+	height: 115px;
+}
+#first_block{
+	background-color: #888;
+	height: 360px;
+}
+#second_block{
+	background-color: #555;
+	height: 400px;
+}
+#third_block{
+	background-color: #111;
+	height: 420px;
+}
+#institute{
+	background-color: #444;
+	height: 130px;
+}
+#footer{
+	background-color: #222;
+	height: 285px;
+}

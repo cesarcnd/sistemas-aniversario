@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section,article,figure,figcaption,aside,footer,nav{
+    display: block;
+}
+.b-all-body{
+    width: 100%;
+}
+.b-body{
+    margin: 0 auto;
+    width: 1000px;
+}
