@@ -25,13 +25,39 @@ a,a:hover{
 	text-decoration: none;
 }
 .social_network{
-	background-image: url('../image/utilities/util/social-network.png');
-	background-repeat: no-repeat;
 	border-radius: 50%;
-	height: 31px;
+	height: 30px;
 	margin: 0px 1px;
-	width: 31px;
+	width: 30px;
 }
 .text{
 	color: #555;
+}
+.link-a{
+	left: 0;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+@font-face{
+	font-family: sistemas;
+	src:url(../font/icomoon/icomoon.eot);
+	src:url(../font/icomoon/icomoon.eot#iefix) format('embedded-opentype'),
+	url(../font/icomoon/icomoon.woff) format('woff'),
+	url(../font/icomoon/icomoon.ttf) format('truetype'),
+	url(../font/icomoon/icomoon.svg#smpe_ico) format('svg');
+}
+[class^="sistemas_ico"] {
+	font-family: 'sistemas';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+.sprite{
+	background-image: url(../image/utilities/util/sprite.png);
+	background-repeat: no-repeat;
 }

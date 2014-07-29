@@ -5,6 +5,7 @@
 }
 .social_network.facebook,.social_network.twitter,.social_network.youtube{
 	background-color: #333;
+	color:#fff;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
@@ -12,19 +13,25 @@
 	transition: all 0.2s ease-in-out;
 }
 .facebook{
-	background-position: 10px 4px;
+	background-position: 6px -4px;
 }
 .facebook:hover{
 	background-color: #3b5998;
 }
 .twitter{
-	background-position: -28px 4px;
+	background-position: -23px -4px;
 }
 .twitter:hover{
 	background-color: #3AA0EC;
 }
+span.sistemas_ico_youtube:before{
+	content: "\e606";
+}
 .youtube{
-	background-position: -68px 4px;
+	color: #fff;
+	height: initial;
+	width: initial;
+	padding: 5px 6px 5px 6px;
 }
 .youtube:hover{
 	background-color: #cc181e;
