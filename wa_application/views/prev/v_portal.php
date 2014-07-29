@@ -7,6 +7,7 @@
 		<title>XXI Aniversario de Ingenieria de Sistemas de la UNJFSC</title>
 		<link rel="stylesheet" href="<?php echo base_url()?>resource/css/base.css" type="text/css">
 		<link rel="stylesheet" href="<?php echo base_url()?>resource/css/style.css" type="text/css">
+		<script src="<?php echo base_url()?>resource/js/jquery-1.9.1.min.js"></script>
 	</head>
 	<body>
 		<section class="b-all-body">
