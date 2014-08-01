@@ -101,10 +101,65 @@ span.sistemas_ico_youtube:before{
 /*END AREA INFORMATIVE*/
 /*STAR INSCRIPTION*/
 #inscription{
-	background-color: #666;
+	background-color: #E0E0E0;
 	height: 360px;
 	width: 333px;
+	margin:0 auto;
 }
+
+#blq_inscription{
+	background-color: #FFF;
+	height: 317px;
+	width: 289px;
+	margin: 21px auto;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border: 2px solid #E3E3E3;
+}
+#cabecera{
+	background-color: #ECECEC; 
+	height: 57px;
+	width: 289px;
+	border-radius: 10px;
+}
+
+#cabecera h1{
+	text-align: center;
+	line-height: 57px;
+	font-size: 19px;
+}
+
+input[class="dato"]{
+	height: 38px;
+	width: 233px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	border: solid #9C9B9B;
+	border-width: 1px 1px 3px 1px;
+	border-radius: 4px;
+}
+button[type="submit"]{
+	background-color: #E7776B;
+	height: 45px;
+	width: 159.5px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 13px;
+	color: #FFF;
+	font-size: 15px;
+	border: solid #D65D54;
+	border-width: 1px 1px 5px 1px;
+	border-radius: 5px;
+}
+
+
 /*END INSCRIPTION*/
 #second_block{
 	background-color: #555;
