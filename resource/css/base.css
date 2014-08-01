@@ -41,6 +41,9 @@ a,a:hover{
 	width: 100%;
 	z-index: 1;
 }
+.display-none{
+	display: none;
+}
 @font-face{
 	font-family: sistemas;
 	src:url(../font/icomoon/icomoon.eot);
@@ -58,6 +61,9 @@ a,a:hover{
 	text-transform: none;
 }
 .sprite{
-	background-image: url(../image/utilities/util/sprite.png);
+	background-image: url(../image/utilities/util/png/sprite.png);
 	background-repeat: no-repeat;
+}
+.ui-loader{
+	display: none;
 }

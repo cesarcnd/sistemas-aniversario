@@ -46,27 +46,80 @@ span.sistemas_ico_youtube:before{
 }
 /*END HEADER*/
 /*STAR BROWSER*/
+.browser_triangle{
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 13px solid rgba(42,128,156,0.8);
+	height: 0px;
+	position: absolute;
+	top: 32px;
+	width: 0px;
+}
+#browser .logo{
+	position: relative;
+}
+#browser .logo img{
+	left: 90px;
+	position: absolute;
+	top: 20px;
+	z-index: 1;
+}
 #browser{
 	background-color: #2a809c;
 	height: 50px;
 }
-#browser ul li{
+#browser ul li.list{
 	color:#fff;
 	display: inline-block;
+	height: 20px;
 	margin: 0px 3px;
+	position: relative;
 	text-align: right;
 }
-#browser ul{
+#browser ul.p_list{
 	padding: 16px 0px 16px 0px;
 	text-align: right;
 }
-#browser ul li a{
+#browser ul li.list a{
 	padding: 5px 10px;
 }
-#browser ul li a:hover{
+#browser ul li.list a:hover{
 	border-radius:5px;
 	background-color: #f5f5f5;
 	color: #2a809c;
+}
+#browser .hover_browser{
+	opacity: 0;
+	position: relative;
+	top: -10px;
+	visibility: hidden;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	z-index: 1;
+}
+#browser li.list:hover > .hover_browser{
+	opacity: 1;
+	visibility: visible;
+	margin-top: 0px;
+	top: -20px;
+}
+#browser ul li.list ul.sub_list{
+	background-color: rgba(42,128,156,0.8);
+	border-radius: 7px;
+	left: -10px;
+	position: absolute;
+	text-align: left;
+	top: 45px;
+	right: -3px;
+	z-index: 1;
+}
+#browser ul li.list ul.sub_list .list_option{
+	display: block;
+	margin: 10px 0px;
+	padding: 5px 17px 5px 5px;
 }
 /*END BROWSER*/
 /*STAR FRONT*/
