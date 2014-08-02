@@ -249,6 +249,11 @@ button[type="submit"]{
 	height: 420px;
 }
 /*STAR GALLERY IMAGE*/
+.multimedia{
+	background-color: #308eba;
+	height: 350px;
+	margin: 35px;
+}
 #image{
 	background-color: #333;
 	height: 420px;

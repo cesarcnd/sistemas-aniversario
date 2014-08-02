@@ -5,4 +5,5 @@ $(function(){
 		minHeight: '187px',
 		loader: 'bar'
 	});
+	
 });
