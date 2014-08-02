@@ -388,4 +388,88 @@ transition: all 2.5s ease;
 #footer{
 	background-color: #222;
 	height: 285px;
+	padding: 0px;
+}
+
+#footer .colores 
+{
+	width: 100%;
+	height: 5px;
+	background-color: ;
+	vertical-align: top;
+	display: block;
+}
+#footer .colores .color1
+{
+	width: 10%;
+	height: 5px;
+	background-color: #C2D38F;
+	vertical-align: top;
+}
+#footer .colores .color2
+{
+	width: 10%;
+	height: 5px;
+	background-color: #FDCC8A;
+	vertical-align: top;
+}
+#footer .colores .color3
+{
+	width: 10%;
+	height: 5px;
+	background-color: #E9836D;
+	vertical-align: top;
+}
+#footer .colores .color4
+{
+	width: 10%;
+	height: 5px;
+	background-color: #C9A2CF;
+	vertical-align: top;
+}
+#footer .colores .color5
+{
+	width: 10%;
+	height: 5px;
+	background-color: #EBA2BD;
+	vertical-align: top;
+}
+#footer .colores .color6
+{
+	width: 10%;
+	height: 5px;
+	background-color:#C9A2CF;
+	vertical-align: top;
+}
+
+#footer .colores .color7
+{
+	width: 10%;
+	height: 5px;
+	background-color:#5193CF;
+	vertical-align: top;
+}
+
+#footer .colores .color8
+{
+	width: 10%;
+	height: 5px;
+	background-color: #5F636E;
+	vertical-align: top;
+}
+
+#footer .colores .color9
+{
+	width: 10%;
+	height: 5px;
+	background-color: #C18F86;
+	vertical-align: top;
+}
+
+#footer .colores .color10
+{
+	width: 10%;
+	height: 5px;
+	background-color: #E6866D;
+	vertical-align: top;
 }
