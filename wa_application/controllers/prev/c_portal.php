@@ -5,6 +5,7 @@ class C_portal extends CI_Controller {
 	public function index()
 	{
 		$this->getUtil();
+		$this->DATA['eventos']=$this->m_portal->getListTheme();
 		$this->DATA['fronts']=$this->resource_util->img_change_local($this->m_portal->getListFront(),1);
 		$this->load->view('prev/v_portal',$this->DATA);
 	}
@@ -16,8 +17,9 @@ class C_portal extends CI_Controller {
 
 	function cargar_eventacademy()
 	{	$query = "CALL SPRCNSEvent_Academy()";
+		$this->load->database();
 		$query=$this->db->query($query);
-		return $query->result_array();
+		return $query->result();
 
 	}
 
