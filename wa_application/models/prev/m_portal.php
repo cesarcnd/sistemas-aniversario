@@ -19,4 +19,20 @@ class M_portal extends CI_Model{
 		$query =$this->db->get();
 		return $query->result_array(); 
 	}
+
+	function setInsertAttendanceStudent($attendance,$id_event_academy,$dni){
+		$this->load->database();
+		$queyConsult=$this->db->select('pe.id_person');
+		$this->db->where('pe.number_document',$dni);
+		$queyConsult=$this->db->get('wa_person pe');
+		$queyConsult=$queyConsult->result_array(); 
+		$idPerson = $queyConsult[0]['id_person'];
+
+		$data = array('id_person'=>$idPerson,'id_event_academy'=>$id_event_academy,'status'=>'P','active'=>'1');
+		$this->db->insert('wa_event_academy_attendance',$data);
+	}
+
+	function setInsertAttendanceNew($attendance,$id_event_academy,$dni){
+		$this->load->database();	
+	}
 }

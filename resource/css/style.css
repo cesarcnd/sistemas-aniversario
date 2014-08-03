@@ -197,7 +197,8 @@ span.sistemas_ico_youtube:before{
 
 #blq_inscription{
 	background-color: #FFF;
-	height: 325px;
+	border: 1px solid #8c8c8c;
+	height: 330px;
 	width: 289px;
 	margin: 17px auto;
 	border-radius: 10px;
@@ -206,11 +207,18 @@ span.sistemas_ico_youtube:before{
 	-o-border-radius: 10px;
 	border: 2px solid #E3E3E3;
 }
+
 #cabecera{
 	background-color: #ECECEC; 
+	border-radius: 8px 8px 0px 0px;
+	border-bottom: 1px solid #8c8c8c;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
 	height: 57px;
 	width: 289px;
-	border-radius: 10px;
 }
 
 #cabecera h1{
@@ -253,6 +261,7 @@ input[class="dato"]{
 }
 button[type="submit"]{
 	background-color: #E7776B;
+	cursor: pointer;
 	height: 45px;
 	width: 159.5px;
 	margin-left: auto;
@@ -264,6 +273,9 @@ button[type="submit"]{
 	border: solid #D65D54;
 	border-width: 1px 1px 5px 1px;
 	border-radius: 5px;
+}
+#inscription .letter{
+	color: #8c8c8c;
 }
 
 

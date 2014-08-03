@@ -15,16 +15,18 @@ class C_portal extends CI_Controller {
 		$this->load->library('resource_util');
 	}
 
-	function cargar_eventacademy()
-	{	$query = "CALL SPRCNSEvent_Academy()";
-		$this->load->database();
-		$query=$this->db->query($query);
-		return $query->result();
-
-	}
-
-	function cargar_event()
-	{	$this->DATA['eventos']=$this->cargar_eventacademy();
-		echo $this->load->views('prev/module/list/inscription/l_inscription',$this->DATA);
+	public function setInsertAttendance(){
+		$this->getUtil();
+		$estudiante = $this->input->post('estudiante');
+		$dni=$this->input->post('dni');
+		$id_event_academy=$this->input->post('id_event_academy');
+		$attendance=$this->input->post('attendance');
+		
+		if($estudiante!=''){
+			$this->m_portal->setInsertAttendanceStudent($attendance,$id_event_academy,$dni);
+		}else{
+			$this->m_portal->setInsertAttendanceNew($attendance,$id_event_academy,$dni);
+		}
+		echo '';
 	}
 }
