@@ -5,7 +5,7 @@ class Resource_util {
         $CI =& get_instance();
         $CI->load->helper('url');
         foreach($new_infos as $new_info)
-        {   if($new_info['type_image']==1)
+        {   if($new_info['type_image']=='L')
             {   $img=$new_info['image'];
                 switch ($front) {
                     case 0:$new_info['image']=base_url().'resource/image/body/images/notice/thumbnail/'.$img;break;

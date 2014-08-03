@@ -1,10 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
 }
+h1,h2,h3{font-family: Arial, sans-serif;}
 section,article,figure,figcaption,aside,footer,nav{
     display: block;
+    font-family: Arial, sans-serif;
 }
 .b-all-body{
     width: 100%;
@@ -67,3 +68,8 @@ a,a:hover{
 .ui-loader{
 	display: none;
 }
+.link-a{left: 0;height: 100%;position: absolute;top: 0;width: 100%;z-index: 1}
+.sistemas_ico_photo:before{content: "\e605";font-size: 55px;}
+.sistemas_ico_video:before{content: "\e620";font-size: 55px;}
+.sistemas_ico_twitter:before{content: "\e625"}
+.sistemas_ico_facebook:before{content: "\e61e"}
