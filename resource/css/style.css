@@ -253,18 +253,87 @@ button[type="submit"]{
 	background-color: #308eba;
 	height: 350px;
 	margin: 35px;
+	position: relative;
+}
+.multimedia .camera_commands{
+	display: none;
+}
+.multimedia .circle{
+	background-color: rgba(42,128,156,0.7);
+	border-radius:50%;
+	color: #fff;
+	height: 90px;
+	position: absolute;
+	right: 40%;
+	text-align: center;
+	top: 29%;
+	width: 90px;
+	z-index: 2;
+}
+.multimedia .circle > div{
+	position: relative;
+	top: 12px;
 }
 #image{
-	background-color: #333;
+	background-color: #e0e0e0;
 	height: 420px;
 	width: 500px;
+}
+#image .multimedia .camera_pag{
+	bottom: -100px;
+	position: absolute;
+	right: 8px;
+}
+.multimedia .spacing_multimedia{
+	box-sizing: border-box;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+.multimedia .camera_target_content {
+	bottom: -50px;
+	overflow: initial;
+}
+.multimedia .camera_caption > div{
+	background-color: #308eba;
+	padding: 10px 0px;
 }
 /*END GALLERY IMAGE*/
 /*STAR GALLERU VIDEO*/
 #video{
-	background-color: #444;
+	background-color: #e0e0e0;
 	height: 420px;
 	width: 500px;
+}
+#video .multimedia .circle > div{
+	left: 5px;
+	top: 18px;
+}
+#video .multimedia .camera_target_content{
+	bottom: -90px;
+}
+#video .multimedia .camera_target_content .camera_caption {
+	border-top: 1px solid rgba(255,255,255,0.2);
+}
+#video .reproductor{
+	color: #fff;
+	padding: 0px 10px;
+}
+.sistemas_ico_play:before{content: "\e620";font-size: 22px;}
+.sistemas_ico_pause:before{content: "\e621";font-size: 22px;}
+.sistemas_ico_stop:before{content: "\e622";font-size: 22px;}
+.sistemas_ico_complete:before{content: "\e618";font-size: 22px;}
+.line_time{
+	background-position: -7px -112px;
+	height: 20px;
+	width: 265px;
+	margin: 0px 6px;
+}
+.multimedia .camera_target_content .camera_link{
+	position: relative;
+	z-index: 3;
 }
 /*END GALLERY VIDEO*/
 /*STAR INSTITUTE*/

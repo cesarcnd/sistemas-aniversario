@@ -6,8 +6,8 @@
 		<meta name="keywords" content="Aniversario de sistemas, Aniversario de Ing. de sistemas, Ingenieria de sistemas aniversario, xxi aniversario de ingenieria de sistemas" />
 		<title>XXI Aniversario de Ingenieria de Sistemas de la UNJFSC</title>
 		<link rel="stylesheet" href="<?php echo base_url()?>resource/css/base.css" type="text/css">
+		<link rel="stylesheet" href="<?php echo base_url()?>resource/css/camera.css" type="text/css">
 		<link rel="stylesheet" href="<?php echo base_url()?>resource/css/style.css" type="text/css">
-		<link rel="stylesheet" href="<?php echo base_url()?>resource/css/camera.css">
 		<script src="<?php echo base_url()?>resource/js/jquery-1.9.1.min.js"></script>
 		<script src="<?php echo base_url()?>resource/js/jquery.mobile-1.4.1.min.js"></script>
 		<script src="<?php echo base_url()?>resource/js/jquery.easing.1.3.js"></script>
