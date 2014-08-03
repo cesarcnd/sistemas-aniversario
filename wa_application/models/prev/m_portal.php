@@ -11,4 +11,12 @@ class M_portal extends CI_Model{
 		$query =$this->db->get();
 		return $query->result_array(); 
 	}
+	function getListTheme(){
+		$this->load->database();
+		$query=$this->db->select('wa.id_event_academy, wa.theme');
+		$this->db->from('wa_event_academy wa');
+		$this->db->where('wa.active',1);
+		$query =$this->db->get();
+		return $query->result_array(); 
+	}
 }

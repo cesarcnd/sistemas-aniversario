@@ -1,5 +1,9 @@
 <div>
 	<form class="inscription" action="inscription.php" method="post">
+		<div id="estudiante">
+			<label for="estudiante">Estudiante de la UNJFSC <input type='checkbox' name="estudiante" class="opcion" value="1" checked="true"></label>
+			
+		</div>
 		<div>
 			<input class="dato" autofocus="autofocus" name="usuario" type="text"  placeholder="Apellidos y Nombres" requerid>
 		</div>
@@ -7,14 +11,11 @@
 			<input class="dato" name="dni" type="text" maxlength="8" placeholder="N&uacute;mero de DNI" requerid>
 		</div>
 		<div>
-			<input list="eventos" class="dato">
-			<datalist id="eventos">
-  			<option value="Gesti&oacute;n del Conocimiento">
-  			<option value="Inteligencia de Negocios">
-  			<option value="Sistema de Comunicaci&oacute;n">
-  			<option value="Desarrollo Wen">
-  			<option value="Planeamiento Estrat&eacute;gico de TI">
-			</datalist>
+			<select id="eventos" class="dato">
+			<?php foreach ($eventos as $event_academy){?>
+  			<option value="<?php echo $event_academy['id_event_academy']?>"><?php echo $event_academy['theme']?>
+  			<?php }?>
+  			</select>																
 		</div>
 		<div>
 			<button name="btn_inscription" type="submit">Pre-inscribirse</button> 	
