@@ -45,6 +45,7 @@ a,a:hover{
 .display-none{
 	display: none;
 }
+img,iframe{border: none;}
 @font-face{
 	font-family: sistemas;
 	src:url(../font/icomoon/icomoon.eot);

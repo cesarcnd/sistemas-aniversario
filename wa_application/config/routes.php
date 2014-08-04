@@ -4,6 +4,7 @@
 $route['default_controller'] = "prev/c_portal";
 $route['404_override'] = '';
 
+$route['pre-inscribirse/module'] = "prev/c_portal/loadPreInscription";
 $route['pre-inscribirse/eventos'] = "prev/c_portal/setInsertAttendance";
 
 

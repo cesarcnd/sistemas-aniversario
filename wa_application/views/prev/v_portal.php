@@ -65,6 +65,5 @@
 				<?php $this->load->view('prev/base/v_footer'); ?>
 			</footer>
 		</section>
-		<script src="<?php echo base_url()?>resource/js/base.js"></script>
 	</body>
 </html>
