@@ -158,6 +158,53 @@ span.sistemas_ico_youtube:before{
 	height: 360px;
 	width: 333px;
 }
+#blq_programming{
+	background-color: #FFF;
+	height: 317px;
+	width: 289px;
+	margin: 21px auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+#blq_programming header{
+	background-color: #ECECEC;
+	height: 57px;
+	width: 289px;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	line-height: 57px;
+	border-bottom: 1px solid #e0e0e0;
+}
+#blq_programming header h2{
+	font-size: 19px;
+}
+#blq_programming nav{
+	background: #ececec;
+	border: .08em solid #e0e0e0;
+	width: 40px;
+	/*height: 259px;*/
+	border-radius: 0 0 0 5px;
+	text-align: center;
+}
+#blq_programming nav div{
+	padding: 10px 10px 10px 15px;
+	border-bottom: 0.08em solid #e0e0e0;
+	width: 40px;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-ms-writing-mode: tb-rl; /* vieja sintaxis IE */
+  	-webkit-writing-mode: vertical-rl;
+  	-moz-writing-mode: vertical-rl; /*¿a futuro?*/
+  	-ms-writing-mode: vertical-rl;
+  	writing-mode: vertical-rl;
+}
 /*END PROGRAMMING*/
 /*STAR AREA INFORMATIVE*/
 #informative{

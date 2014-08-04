@@ -17,6 +17,9 @@ section,article,figure,figcaption,aside,footer,nav{
 	display: inline-block;
 	vertical-align: middle;
 }
+.display-inline.top{
+	vertical-align: top;
+}
 ul,li{
 	list-style: none;
 }
@@ -66,4 +69,7 @@ a,a:hover{
 }
 .ui-loader{
 	display: none;
+}
+span.sistemas_ico_menu:before{
+	content: "\e624";
 }
