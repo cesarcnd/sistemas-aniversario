@@ -1,0 +1,58 @@
+#estudiante{
+	text-align: right;
+}
+
+.inscription label {
+	display: inline-block;
+	font-size: 10px;
+	line-height: 10px;
+	margin-top: 10px;
+}
+
+input[class="opcion"]{
+	display: inline-block;
+	margin-left: 6px;
+	vertical-align: middle;
+	margin-right: 10px;
+	margin-top: 2px;
+}
+
+input[class="dato"]{
+	height: 38px;
+	width: 233px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 18px;
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	border: solid #9C9B9B;
+	border-width: 1px 1px 3px 1px;
+	border-radius: 4px;
+}
+button[type="submit"]{
+	background-color: #E7776B;
+	cursor: pointer;
+	height: 45px;
+	width: 159.5px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 13px;
+	color: #FFF;
+	font-size: 15px;
+	border: solid #D65D54;
+	border-width: 1px 1px 5px 1px;
+	border-radius: 5px;
+}
+#inscription .letter{
+	color: #8c8c8c;
+}
+#success_inscription{
+	color: #308eba;
+	font-weight: bold;
+	padding: 0px 15px;
+	position: relative;
+	text-align: center;
+	top: 30%;
+}

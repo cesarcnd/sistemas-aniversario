@@ -62,7 +62,7 @@ span.sistemas_ico_youtube:before{
 	left: 90px;
 	position: absolute;
 	top: 20px;
-	z-index: 1;
+	z-index: 2;
 }
 #browser{
 	background-color: #2a809c;
@@ -130,8 +130,9 @@ span.sistemas_ico_youtube:before{
 /*STAR FRONT*/
 #front{
 	background-color: #000;
-	height:350px;
+	height:360px;
 	position: relative;
+	z-index: 1;
 }
 #front .camera_commands{
 	display: none;
@@ -144,10 +145,30 @@ span.sistemas_ico_youtube:before{
 /*END FRONT*/
 /*STAR PUBLIC*/
 #public{
-	background-color: #555;
+	background-color: #0087c5;
 	height: 115px;
+	text-align: center;
+	font-size: 25px; 
+	font-weight: bold;
+	color: white;
+}
+
+#public .fechcont
+{
+	top: -37px;
+	position: relative
+}
+#public .fechcont .triangle
+{
+	background: url("../image/utilities/util/png/triangulo.png");
+	background-repeat-x: repeat;
+	height: 24px;
+	margin-top: 7px;
+	width: 100%;
 }
 /*END PUBLIC*/
+
+
 #first_block{
 	background-color: #888;
 	height: 360px;
@@ -223,55 +244,35 @@ span.sistemas_ico_youtube:before{
 
 #blq_inscription{
 	background-color: #FFF;
-	height: 317px;
+	border: 1px solid #8c8c8c;
+	height: 330px;
 	width: 289px;
-	margin: 21px auto;
+	margin: 17px auto;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-o-border-radius: 10px;
-	border: 2px solid #E3E3E3;
-}
-#cabecera{
-	background-color: #ECECEC; 
-	height: 57px;
-	width: 289px;
-	border-radius: 10px;
 }
 
-#cabecera h1{
+#cabecera{
+	background-color: #ECECEC; 
+	border-radius: 8px 8px 0px 0px;
+	border-bottom: 1px solid #8c8c8c;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	height: 57px;
+	width: 289px;
+}
+
+#cabecera h2{
 	text-align: center;
 	line-height: 57px;
 	font-size: 19px;
 }
 
-input[class="dato"]{
-	height: 38px;
-	width: 233px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
-	display: block;
-	text-align: center;
-	font-size: 16px;
-	border: solid #9C9B9B;
-	border-width: 1px 1px 3px 1px;
-	border-radius: 4px;
-}
-button[type="submit"]{
-	background-color: #E7776B;
-	height: 45px;
-	width: 159.5px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	margin-top: 13px;
-	color: #FFF;
-	font-size: 15px;
-	border: solid #D65D54;
-	border-width: 1px 1px 5px 1px;
-	border-radius: 5px;
-}
 
 
 /*END INSCRIPTION*/
@@ -296,24 +297,194 @@ button[type="submit"]{
 	height: 420px;
 }
 /*STAR GALLERY IMAGE*/
+.multimedia{
+	background-color: #308eba;
+	height: 350px;
+	margin: 35px;
+	position: relative;
+}
+.multimedia .camera_commands{
+	display: none;
+}
+.multimedia .circle{
+	background-color: rgba(42,128,156,0.7);
+	border-radius:50%;
+	color: #fff;
+	height: 90px;
+	position: absolute;
+	right: 40%;
+	text-align: center;
+	top: 29%;
+	width: 90px;
+	z-index: 2;
+}
+.multimedia .circle > div{
+	position: relative;
+	top: 12px;
+}
 #image{
-	background-color: #333;
+	background-color: #e0e0e0;
 	height: 420px;
 	width: 500px;
+}
+#image .multimedia .camera_pag{
+	bottom: -100px;
+	position: absolute;
+	right: 8px;
+}
+.multimedia .spacing_multimedia{
+	box-sizing: border-box;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+.multimedia .camera_target_content {
+	bottom: -50px;
+	overflow: initial;
+}
+.multimedia .camera_caption > div{
+	background-color: #308eba;
+	padding: 10px 0px;
 }
 /*END GALLERY IMAGE*/
 /*STAR GALLERU VIDEO*/
 #video{
-	background-color: #444;
+	background-color: #e0e0e0;
 	height: 420px;
 	width: 500px;
+}
+#video .multimedia .circle > div{
+	left: 5px;
+	top: 18px;
+}
+#video .multimedia .camera_target_content{
+	bottom: -90px;
+}
+#video .multimedia .camera_target_content .camera_caption {
+	border-top: 1px solid rgba(255,255,255,0.2);
+}
+#video .reproductor{
+	color: #fff;
+	padding: 0px 10px;
+}
+.sistemas_ico_play:before{content: "\e620";font-size: 22px;}
+.sistemas_ico_pause:before{content: "\e621";font-size: 22px;}
+.sistemas_ico_stop:before{content: "\e622";font-size: 22px;}
+.sistemas_ico_complete:before{content: "\e618";font-size: 22px;}
+.line_time{
+	background-position: -7px -112px;
+	height: 20px;
+	width: 265px;
+	margin: 0px 6px;
+}
+.multimedia .camera_target_content .camera_link{
+	position: relative;
+	z-index: 3;
 }
 /*END GALLERY VIDEO*/
 /*STAR INSTITUTE*/
 #institute{
-	background-color: #444;
+	background-color: #EAEAEA;
 	height: 130px;
 }
+
+
+#institute .imginstitute
+{	
+	position: relative;
+}
+
+
+#institute .imginstitute #institutelogo1,#institutelogo2,#institutelogo3,#institutelogo4,#institutelogo5
+{
+		
+filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
+filter: Gray(); /* IE4-8 and 9 */
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+
+2
+
+}
+#institute .imginstitute #institutelogo1:hover,#institutelogo2:hover,#institutelogo3:hover,#institutelogo4:hover,#institutelogo5:hover
+{
+	-webkit-filter: grayscale(0%);
+-moz-filter: grayscale(0%);
+-ms-filter: grayscale(0%);
+-o-filter: grayscale(0%);
+filter: none;
+-webkit-transition: all 2.5s ease;
+-moz-transition: all 2.5s ease;
+-ms-transition: all 2.5s ease;
+-o-transition: all 2.5s ease;
+transition: all 2.5s ease;	
+
+ -moz-transform: rotate(-360deg);
+     -o-transform: rotate(-360deg);
+     -webkit-transform: rotate(-360deg);
+     transform: rotate(-360deg);
+}
+
+#institute .imginstitute #institutelogo1
+{
+	max-width: 371px; 
+     height: 64px;
+	float: left;
+	position: relative;
+	top:32px;
+	margin-left: 2em;
+}
+#institute .imginstitute #institutelogo2
+{
+	
+	max-width: 371px; 
+      height: 64px;
+     float: left;
+     position: relative;
+	top:32px;
+	margin-left: 2em;
+}
+#institute .imginstitute #institutelogo3
+{
+	max-width: 371px; 
+     height: 64px;
+	float: left;
+	position: relative;
+	top:23px;
+	margin-left: 2em;
+}
+#institute .imginstitute #institutelogo4
+{
+	max-width: 371px; 
+     height: 64px;
+	float: left;
+	position: relative;
+	top:32px;
+	margin-left: 2em;
+}
+#institute .imginstitute #institutelogo5
+{
+	max-width: 371px; 
+     height: 64px;
+	float: left;
+	position: relative;
+	top:27px;
+	margin-left: 2em;
+}
+
+
+
+
 /*END INSTITUTE*/
 #footer{
 	background-color: #222;
