@@ -175,19 +175,9 @@ span.sistemas_ico_youtube:before{
 }
 /*STAR PROGRAMMING*/
 #programming{
-	background-color: #333;
+	background-color: #E0E0E0;
 	height: 360px;
 	width: 333px;
-}
-#blq_programming, #blq_informative{
-	background: #fff;
-	height: 317px;
-	width: 289px;
-	margin: 21px auto;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-o-border-radius: 5px;
 }
 #blq_programming header, #blq_informative header{
 	background-color: #ECECEC;
@@ -196,7 +186,7 @@ span.sistemas_ico_youtube:before{
 	border-radius: 5px 5px 0 0;
 	text-align: center;
 	line-height: 57px;
-	border-bottom: 1px solid #e0e0e0;
+	border-bottom: 1px solid #8c8c8c;
 }
 #blq_programming header h2, #blq_informative header h2{
 	font-size: 19px;
@@ -269,7 +259,7 @@ span.sistemas_ico_youtube:before{
 /*END PROGRAMMING*/
 /*STAR AREA INFORMATIVE*/
 #informative{
-	background-color: #444;
+	background-color: #E0E0E0;
 	height: 360px;
 	width: 334px;
 }
@@ -282,16 +272,17 @@ span.sistemas_ico_youtube:before{
 	margin:0 auto;
 }
 
-#blq_inscription{
+#blq_inscription,#blq_programming, #blq_informative{
 	background-color: #FFF;
 	border: 1px solid #8c8c8c;
 	height: 330px;
 	width: 289px;
 	margin: 17px auto;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-o-border-radius: 10px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
 }
 
 #cabecera{
@@ -437,93 +428,41 @@ span.sistemas_ico_youtube:before{
 }
 
 
-#institute .imginstitute #institutelogo1,#institutelogo2,#institutelogo3,#institutelogo4,#institutelogo5
-{
-		
-filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
--webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
--ms-filter: grayscale(100%);
--o-filter: grayscale(100%);
-filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
-filter: Gray(); /* IE4-8 and 9 */
--webkit-transition: all 0.5s ease;
--moz-transition: all 0.5s ease;
--ms-transition: all 0.5s ease;
--o-transition: all 0.5s ease;
-transition: all 0.5s ease;
-
-2
-
+#institute .imginstitute .institutelogo1
+{	
+	filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
+	filter: Gray(); /* IE4-8 and 9 */
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
-#institute .imginstitute #institutelogo1:hover,#institutelogo2:hover,#institutelogo3:hover,#institutelogo4:hover,#institutelogo5:hover
+#institute .imginstitute .institutelogo1:hover
 {
 	-webkit-filter: grayscale(0%);
--moz-filter: grayscale(0%);
--ms-filter: grayscale(0%);
--o-filter: grayscale(0%);
-filter: none;
--webkit-transition: all 2.5s ease;
--moz-transition: all 2.5s ease;
--ms-transition: all 2.5s ease;
--o-transition: all 2.5s ease;
-transition: all 2.5s ease;	
-
- -moz-transform: rotate(-360deg);
-     -o-transform: rotate(-360deg);
-     -webkit-transform: rotate(-360deg);
-     transform: rotate(-360deg);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	filter: none;
+}
+#institute .slides_container{height: 130px;}
+#institute .pagination{display: none}
+#institute .imginstitute .institutelogo1
+{
+	margin: 20px 25px;
+	text-align: center;
 }
 
-#institute .imginstitute #institutelogo1
+#institute .imginstitute .institutelogo1 img
 {
-	max-width: 371px; 
-     height: 64px;
-	float: left;
-	position: relative;
-	top:32px;
-	margin-left: 2em;
+	cursor: pointer;
 }
-#institute .imginstitute #institutelogo2
-{
-	
-	max-width: 371px; 
-      height: 64px;
-     float: left;
-     position: relative;
-	top:32px;
-	margin-left: 2em;
-}
-#institute .imginstitute #institutelogo3
-{
-	max-width: 371px; 
-     height: 64px;
-	float: left;
-	position: relative;
-	top:23px;
-	margin-left: 2em;
-}
-#institute .imginstitute #institutelogo4
-{
-	max-width: 371px; 
-     height: 64px;
-	float: left;
-	position: relative;
-	top:32px;
-	margin-left: 2em;
-}
-#institute .imginstitute #institutelogo5
-{
-	max-width: 371px; 
-     height: 64px;
-	float: left;
-	position: relative;
-	top:27px;
-	margin-left: 2em;
-}
-
-
-
 
 /*END INSTITUTE*/
 #footer{
