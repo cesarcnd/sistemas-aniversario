@@ -103,7 +103,7 @@ span.sistemas_ico_youtube:before{
 	-ms-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
-	z-index: 1;
+	z-index: 5;
 }
 #browser li.list:hover > .hover_browser{
 	opacity: 1;
