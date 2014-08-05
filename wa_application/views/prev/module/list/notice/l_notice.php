@@ -57,4 +57,4 @@
 		<button name="btn_ver" class="btn_ver1" type="button">Leer más</button>
 		</div>
 	</form>
-</div>
+</div> Natiii en qué parte se pone para q jale el style.css? xq no reconoce nigun estilo

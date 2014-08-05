@@ -4,4 +4,4 @@
 <section>
 	<?php $this->load->view('prev/module/list/notice/l_notice'); ?>
 	
-</section>
+</section> 
