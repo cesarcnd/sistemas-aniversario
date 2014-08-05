@@ -13,17 +13,7 @@
 		<script src="<?php echo base_url()?>resource/js/jquery.easing.1.3.js"></script>
 		<script src="<?php echo base_url()?>resource/js/camera.min.js"></script>
 		<script src="<?php echo base_url()?>resource/js/portal.js"></script>
-<<<<<<< HEAD
-
-	    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>resource/css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>resource/css/common.css" />
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>resource/css/style2.css" />
-		<link rel='stylesheet' type='text/css' href="<?php echo base_url()?>resource/css/from.css"/>
-		<script type="text/javascript" src="<?php echo base_url()?>resource/js/modernizr.custom.79639.js"></script> 
-
-=======
 		<script>base_url="<?php echo base_url()?>"</script>
->>>>>>> 60884f586ae9f2831738785a15f69e76bc05f239
 	</head>
 	<body>
 		<section class="b-all-body">

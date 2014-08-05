@@ -1,7 +1,5 @@
 <div>
-	<form class="notice" action="notice.php" method="post">
 	<hr border="0"; border-top="1px" solid #999; border-bottom="1px" solid #333; height="0";>
-		<h2></h2>
 		</header>
 			<section>
 				<link rel="shortcut icon" href="../favicon.ico"> 
