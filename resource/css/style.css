@@ -185,6 +185,22 @@ span.sistemas_ico_youtube:before{
 	-o-border-radius: 10px;
 	border: 2px solid #E3E3E3;
 }
+#blq_noticia1{
+	background-color: #FFF;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border: 2px solid #E3E3E3;
+}
+#blq_noticia2{
+	background-color: #FFF;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border: 2px solid #E3E3E3;
+}
 #cabecera{
 	background-color: #ECECEC; 
 	height: 57px;
@@ -226,7 +242,6 @@ button[type="submit"]{
 	border-radius: 5px;
 }
 
-
 /*END INSCRIPTION*/
 #second_block{
 	background-color: #555;
@@ -234,10 +249,75 @@ button[type="submit"]{
 }
 /*STAR NOTICE*/
 #notice{
-	background-color: #777;
+	background-color: #E0E0E0;
 	height: 400px;
 	width: 667px;
 }
+ 
+ .btn_leer
+ {
+ 	background-color:#308EBA;
+	height:35px;
+	width:140.5px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin-top:8px;
+	color:#FFF;
+	font-size:15px;
+	border: solid #4682B4;
+	border-width: 1px 1px 5px 1px;
+	border-radius: 5px;
+	position: relative; left: 80px; top: -195px;
+ }
+.btn_ver
+ {
+ 	background-color:#E7776B;
+	height: 35px;
+	width: 140.5px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 13px;
+	color: #FFF;
+	font-size: 15px;
+	border: solid #D65D54;
+	border-width: 1px 1px 5px 1px;
+	border-radius: 5px;
+	position: relative; left: 235px; top: -243px;
+ }
+.btn_leer1
+ {
+ 	background-color:#308EBA;
+	height:35px;
+	width:140.5px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	margin-top:13px;
+	color:#FFF;
+	font-size:15px;
+	border:solid #4682B4;
+	border-width:1px 1px 5px 1px;
+	border-radius:5px;
+	position: relative; left: -95px; top: -400px;
+ }
+.btn_ver1
+ {
+ 	background-color:#E7776B;
+	height: 35px;
+	width: 140.5px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 13px;
+	color: #FFF;
+	font-size: 15px;
+	border: solid #D65D54;
+	border-width: 1px 1px 5px 1px;
+	border-radius: 5px;
+	position: relative; left: -250px; top: -448px;
+ }
 /*END NOTICE*/
 #access_direct{
 	background-color: #555;
@@ -272,3 +352,5 @@ button[type="submit"]{
 	background-color: #222;
 	height: 285px;
 }
+
+

@@ -1,0 +1,13 @@
+@import url('normalize.css');
+
+/* General Demo Style */
+
+.container{
+	width: 10%;
+	position: relative;
+}
+.main{
+	width: 0%;
+	margin:  auto;
+	position: relative;
+}
