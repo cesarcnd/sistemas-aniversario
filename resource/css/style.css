@@ -303,19 +303,90 @@ span.sistemas_ico_youtube:before{
 	line-height: 57px;
 	font-size: 19px;
 }
-
-
-
 /*END INSCRIPTION*/
 #second_block{
-	background-color: #555;
-	height: 400px;
+	height: 445px;
 }
 /*STAR NOTICE*/
 #notice{
-	background-color: #777;
-	height: 400px;
+	background-color: #e0e0e0;
+	height: 445px;
 	width: 667px;
+}
+#notice header.title_notice{
+	padding: 16px 23px;
+	border-bottom: 1px solid #848484;
+}
+#notice .item_notice.sup_notice{
+	border-top: 1px solid #eaeaea;
+	border-bottom: 1px solid #848484;
+}
+#notice .item_notice.sub_notice{
+	border-top: 1px solid #eaeaea;
+}
+#notice header.title_notice h2{
+	font-size: 19px;
+}
+#notice .item_notice .img_notice{
+	background: #333;
+	height: 193px;
+	width: 220px;
+}
+#notice .item_notice .content_notice{
+	height: 193px;
+	width: 447px;
+}
+#notice .item_notice .content_notice .header_notice h3{
+	font-size: 13px;
+	padding: 12px 8px;
+}
+#notice .item_notice .content_notice .time_notice{
+	color: #666666;
+	font-size: 12px;
+	padding: 3px 0px 7px 8px;
+}
+#notice .item_notice .content_notice .time_notice .link_notice{
+	text-decoration: underline;
+}
+#notice .item_notice .content_notice .abstract_notice{
+	color: #444444;
+	font-size: 13px;
+	height: 75px;
+	padding: 0px 10px;
+}
+#notice .item_notice.sup_notice .content_notice .btns_notice{
+	padding: 5px 20px 5px 10px;
+	text-align: right;
+}
+#notice .item_notice.sub_notice .content_notice .btns_notice{
+	padding: 5px 10px 5px 20px;
+	text-align: left;	
+}
+#notice .item_notice .btn_read_more
+{
+ 	background-color:#308eba;
+ 	box-shadow: 0px 4px 0px #256877;
+	border-radius: 8px;
+	color:#FFF;
+	font-size:15px;
+	padding: 8px 30px;
+	-webkit-box-shadow: 0px 4px 0px #256877;
+	-moz-box-shadow: 0px 4px 0px #256877;
+	-o-box-shadow: 0px 4px 0px #256877;
+	-ms-box-shadow: 0px 4px 0px #256877;
+}
+#notice .item_notice .btn_all
+{
+ 	background-color:#f55857;
+	border-radius: 8px;
+ 	box-shadow: 0px 4px 0px #ae414c;
+	color: #FFF;
+	font-size: 15px;
+	padding: 8px 30px;
+	-webkit-box-shadow: 0px 4px 0px #ae414c;
+	-moz-box-shadow: 0px 4px 0px #ae414c;
+	-o-box-shadow: 0px 4px 0px #ae414c;
+	-ms-box-shadow: 0px 4px 0px #ae414c;
 }
 /*END NOTICE*/
 #access_direct{

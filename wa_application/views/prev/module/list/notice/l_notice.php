@@ -1,58 +1,36 @@
-<div>
-	<hr border="0"; border-top="1px" solid #999; border-bottom="1px" solid #333; height="0";>
+<section class="item_notice sup_notice">
+	<section class="display-inline img_notice"></section><!--
+	--><section class="display-inline content_notice">
+		<header class="header_notice">
+			<h3>Inaguraci&oacute;n del campo de Ingenier&iacute;a</h3>
 		</header>
-			<section>
-				<link rel="shortcut icon" href="../favicon.ico"> 
-       		</section>
-			<div class="container">
-			<!-- Codrops top bar --><!--/ Codrops top bar -->
-				<section class="main">
-					<ul class="ch-grid">
-						<li>
-							<div class="ch-item ch-img-1">
-							<div class="ch-info">
-								<h3>Siguenos</h3>
-								<a target="_blank" href="https://www.facebook.com/">
-								<img src="<?php echo base_url()?>resource/image/utilities/organization/18.jpg"/ ></a>
-								<a href="https://twitter.com/" target="_blank">
-								<img src="<?php echo base_url()?>resource/image/utilities/organization/19.jpg"/ ></a>
-	                        </div>
-						<!--<div class="ch-info">
-								<h3>Venta de Tequeños</h3>
-									<p>4 de Julio</p>
-							</div> -->
-							</div>
-						</li>
-					</ul>
-				</section>
-			</div>	
-			<button name="btn_leer" class="btn_leer" type="button">Ver todo</button>
-			<button name="btn_ver" class="btn_ver" type="button">Leer más</button>
-			</div>
-			<hr border="0"; border-top="1px" solid #999; border-bottom="1px" solid #333; height="0";>
-			<div>
-			<h2></h2>
+		<div class="time_notice">09 de Julio de 2014 | <a href="javascript:;" class="link_notice">Teque&ntilde;ada</a></div>
+		<article class="abstract_notice">
+			La inaguración se dio, con la presencia de nuestras autoridades de la Facultad de 
+			Ingenieria Industrial, Sistemas e Informática La inaguración se dio, con la presencia de 
+			nuestras autoridades de la Facultad...
+		</article>
+		<div class="btns_notice">
+			<a href="javascript:;" class="btn_all display-inline">Ver todo</a>
+			<a href="javascript:;" class="btn_read_more display-inline">Leer m&aacute;s</a>
+		</div>
+	</section>
+</section>
+<section class="item_notice sub_notice">
+	<section class="display-inline content_notice">
+		<header class="header_notice">
+			<h3>Gran rifa, en deportes sistemas</h3>
 		</header>
-		<div class="container1">
-		<!-- Codrops top bar --><!--/ Codrops top bar -->
-		<section class="main1">
-			<ul class="ch-grid">
-				<li>
-					<div class="ch-item1 ch-img-2">
-					<div class="ch-info1">
-						<h3>Siguenos</h3>
-						<a target="_blank" href="https://www.facebook.com/">
-						<img src="<?php echo base_url()?>resource/image/utilities/organization/18.jpg"/ ></a>
-						<a href="https://twitter.com/" target="_blank">
-						<img src="<?php echo base_url()?>resource/image/utilities/organization/19.jpg"/ ></a>
-                    </div>
-					</div>
-				</li>
-			</ul>
-		</section>
+		<div class="time_notice">04 de Julio de 2014 | <a href="javascript:;" class="link_notice">Sistemas deportes</a></div>
+		<article class="abstract_notice">
+			La inaguración se dio, con la presencia de nuestras autoridades de la Facultad de 
+			Ingenieria Industrial, Sistemas e Informática La inaguración se dio, con la presencia de 
+			nuestras autoridades de la Facultad...
+		</article>
+		<div class="btns_notice">
+			<a href="javascript:;" class="btn_read_more display-inline">Leer m&aacute;s</a>
+			<a href="javascript:;" class="btn_all display-inline">Ver todo</a>
 		</div>
-		<button name="btn_leer" class="btn_leer1" type="button">Ver todo</button>
-		<button name="btn_ver" class="btn_ver1" type="button">Leer más</button>
-		</div>
-	</form>
-</div> Natiii en qué parte se pone para q jale el style.css? xq no reconoce nigun estilo
+	</section><!--
+	--><section class="display-inline img_notice"></section>
+</section>
