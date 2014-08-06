@@ -29,10 +29,20 @@ class M_portal extends CI_Model{
 		$idPerson = $queyConsult[0]['id_person'];
 
 		$data = array('id_person'=>$idPerson,'id_event_academy'=>$id_event_academy,'status'=>'P','active'=>'1');
-		$this->db->insert('wa_event_academy_attendance',$data);
+		$result = $this->db->insert('wa_event_academy_attendance',$data);
+		return $result;
 	}
 
 	function setInsertAttendanceNew($attendance,$id_event_academy,$dni){
 		$this->load->database();	
+
+		$data = array('name_favorite'=>$attendance,'number_document'=>$dni,'type_person'=>'V','active'=>'1','id_country'=>1);
+		$this->db->insert('wa_person',$data);
+		$idPerson = $this->db->insert_id();
+
+		$data = array('id_person'=>$idPerson,'id_event_academy'=>$id_event_academy,'status'=>'P','active'=>'1');
+		$result=$this->db->insert('wa_event_academy_attendance',$data);
+
+		return $result;
 	}
 }

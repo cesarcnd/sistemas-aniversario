@@ -103,7 +103,7 @@ span.sistemas_ico_youtube:before{
 	-ms-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
-	z-index: 1;
+	z-index: 5;
 }
 #browser li.list:hover > .hover_browser{
 	opacity: 1;
@@ -175,14 +175,91 @@ span.sistemas_ico_youtube:before{
 }
 /*STAR PROGRAMMING*/
 #programming{
-	background-color: #333;
+	background-color: #E0E0E0;
 	height: 360px;
 	width: 333px;
+}
+#blq_programming header, #blq_informative header{
+	background-color: #ECECEC;
+	height: 57px;
+	width: 289px;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	line-height: 57px;
+	border-bottom: 1px solid #8c8c8c;
+}
+#blq_programming header h2, #blq_informative header h2{
+	font-size: 19px;
+}
+#blq_programming nav{
+	background: #ececec;
+	border: .08em solid #e0e0e0;
+	width: 30px;
+	height: 257px;
+	border-radius: 0 0 0 5px;
+	text-align: center;
+}
+#blq_programming nav div{
+	padding: 10px 5px 10px 10px;
+	border-bottom: 0.08em solid #e0e0e0;
+	width: 30px;
+	color: #333;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-ms-writing-mode: tb-rl; /* vieja sintaxis IE */
+  	-webkit-writing-mode: vertical-rl;
+  	-moz-writing-mode: vertical-rl; /*¿a futuro?*/
+  	-ms-writing-mode: vertical-rl;
+  	writing-mode: vertical-rl;
+}
+
+#blq_programming section.body-programming{
+	background-color: #FFF;
+	width: 257px;
+	height: 259px;
+	border-radius: 0 0 5px 0;
+	overflow: hidden;
+}
+#blq_programming section.body-programming div.item-programming{
+	background-color: #fff;
+	width: 257px;
+	height: 95px;
+	border-bottom: 0.08em solid #e0e0e0;
+}
+#blq_programming div.item-programming .image{
+	width: 70px;
+	height: 95px;
+	text-align: center;
+}
+#blq_programming div.item-programming .content{
+	width: 177px;
+	height: 95px;
+	padding: 5px 0;
+	
+	webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#blq_programming div.item-programming .content p,
+#blq_programming div.item-programming .content span {
+	margin: 5px 0;
+	font-size: 0.84em;
+}
+#blq_programming div.item-programming .content p.title{
+	font-size: 0.96em;
+	font-weight: bold;
 }
 /*END PROGRAMMING*/
 /*STAR AREA INFORMATIVE*/
 #informative{
-	background-color: #444;
+	background-color: #E0E0E0;
 	height: 360px;
 	width: 334px;
 }
@@ -195,17 +272,17 @@ span.sistemas_ico_youtube:before{
 	margin:0 auto;
 }
 
-#blq_inscription{
+#blq_inscription,#blq_programming, #blq_informative{
 	background-color: #FFF;
 	border: 1px solid #8c8c8c;
 	height: 330px;
 	width: 289px;
 	margin: 17px auto;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-o-border-radius: 10px;
-	border: 2px solid #E3E3E3;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
 }
 
 #cabecera{
@@ -221,81 +298,333 @@ span.sistemas_ico_youtube:before{
 	width: 289px;
 }
 
-#cabecera h1{
+#cabecera h2{
 	text-align: center;
 	line-height: 57px;
 	font-size: 19px;
 }
-
-#estudiante{
-	text-align: right;
-}
-
-.inscription label {
-	display: inline-block;
-	font-size: 10px;
-	line-height: 10px;
-	margin-top: 10px;
-}
-
-input[class="opcion"]{
-	display: inline-block;
-	margin-left: 6px;
-	vertical-align: middle;
-	margin-right: 10px;
-	margin-top: 2px;
-}
-
-input[class="dato"]{
-	height: 38px;
-	width: 233px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 18px;
-	display: block;
-	text-align: center;
-	font-size: 16px;
-	border: solid #9C9B9B;
-	border-width: 1px 1px 3px 1px;
-	border-radius: 4px;
-}
-button[type="submit"]{
-	background-color: #E7776B;
-	cursor: pointer;
-	height: 45px;
-	width: 159.5px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	margin-top: 13px;
-	color: #FFF;
-	font-size: 15px;
-	border: solid #D65D54;
-	border-width: 1px 1px 5px 1px;
-	border-radius: 5px;
-}
-#inscription .letter{
-	color: #8c8c8c;
-}
-
-
 /*END INSCRIPTION*/
 #second_block{
-	background-color: #555;
-	height: 400px;
+	height: 445px;
 }
 /*STAR NOTICE*/
 #notice{
-	background-color: #777;
-	height: 400px;
+	background-color: #e0e0e0;
+	height: 445px;
 	width: 667px;
 }
-/*END NOTICE*/
-#access_direct{
-	background-color: #555;
-	height: 400px;
-	width: 333px;
+#notice header.title_notice{
+	padding: 16px 23px;
+	border-bottom: 1px solid #848484;
 }
+#notice .item_notice.sup_notice{
+	border-top: 1px solid #eaeaea;
+	border-bottom: 1px solid #848484;
+}
+#notice .item_notice.sub_notice{
+	border-top: 1px solid #eaeaea;
+}
+#notice header.title_notice h2{
+	font-size: 19px;
+}
+#notice .item_notice .img_notice{
+	background: #333;
+	height: 193px;
+	width: 220px;
+}
+#notice .item_notice .content_notice{
+	height: 193px;
+	width: 447px;
+}
+#notice .item_notice .content_notice .header_notice h3{
+	font-size: 13px;
+	padding: 12px 8px;
+}
+#notice .item_notice .content_notice .time_notice{
+	color: #666666;
+	font-size: 12px;
+	padding: 3px 0px 7px 8px;
+}
+#notice .item_notice .content_notice .time_notice .link_notice{
+	text-decoration: underline;
+}
+#notice .item_notice .content_notice .abstract_notice{
+	color: #444444;
+	font-size: 13px;
+	height: 75px;
+	padding: 0px 10px;
+}
+#notice .item_notice.sup_notice .content_notice .btns_notice{
+	padding: 5px 20px 5px 10px;
+	text-align: right;
+}
+#notice .item_notice.sub_notice .content_notice .btns_notice{
+	padding: 5px 10px 5px 20px;
+	text-align: left;	
+}
+#notice .item_notice .btn_read_more
+{
+ 	background-color:#308eba;
+ 	box-shadow: 0px 4px 0px #256877;
+	border-radius: 8px;
+	color:#FFF;
+	font-size:15px;
+	padding: 8px 30px;
+	-webkit-box-shadow: 0px 4px 0px #256877;
+	-moz-box-shadow: 0px 4px 0px #256877;
+	-o-box-shadow: 0px 4px 0px #256877;
+	-ms-box-shadow: 0px 4px 0px #256877;
+}
+#notice .item_notice .btn_all
+{
+ 	background-color:#f55857;
+	border-radius: 8px;
+ 	box-shadow: 0px 4px 0px #ae414c;
+	color: #FFF;
+	font-size: 15px;
+	padding: 8px 30px;
+	-webkit-box-shadow: 0px 4px 0px #ae414c;
+	-moz-box-shadow: 0px 4px 0px #ae414c;
+	-o-box-shadow: 0px 4px 0px #ae414c;
+	-ms-box-shadow: 0px 4px 0px #ae414c;
+}
+/*END NOTICE*/
+/*START DIRECT ACCESS*/
+#access_direct{
+	background-color: #E0E0E0;  
+	height: 445px;
+	width: 333px;
+	margin:0 auto;
+}
+
+.direct_access{
+	background-color: #FFF;
+	height: 400px;
+	width: 289px;
+	margin: 22px auto;
+	border-radius: 10px;
+}
+
+.link_conferencias{
+	background-color: #2EC671;
+	height: 40px;
+	width: 289px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.sombra_conferencias{
+	background-color: #2FAB66;
+	height: 20px;
+	width: 289px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+input[type="checkbox"]{
+	display: none;
+}
+
+.link_conferencias label{
+	text-align: center;
+	line-height: 42px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFF;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
+
+}
+
+.ico_conferencias{
+	background-position: 6px -30px;
+	height: 30px;
+	width: 30px;
+	margin-top: -69px;
+	margin-left: 8px;
+}
+
+.conferencias_triangle{
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid #2FAB66;
+	height: 0px;
+	position: absolute;
+	top: 1005px;
+	right: 453px;
+}
+
+.content_conferencias{
+	height: 230px;
+	width: 289px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.fb-like {
+	margin-top: 28px;
+	margin-left: 12px;
+	}
+
+.twitter-share-button{
+	width: 59px;
+	height: 62px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 15px;
+
+}
+
+.img_conferencias{
+	background: url("../image/body/direct_access/conferencias.jpg");
+	background-repeat: no-repeat;
+	padding: 0;
+	height: 119px;
+	width: 176px;
+	margin: -52px 98px;
+	position: relative;
+	box-shadow: 0px 0px 10px #969696;
+	-webkit-box-shadow: 0px 0px 10px #969696;
+	-moz-box-shadow: 0px 0px 10px #969696;
+	-o-box-shadow: 0px 0px 10px #969696;
+	-ms-box-shadow: 0px 0px 10px #969696;
+}
+
+.ver_conferencias{
+	background-color: #2EC671;
+	height: 33px;
+	width: 193px;
+	border-radius: 5px;
+	border-bottom: 5px solid #2FAB66;
+	margin: 79px 48px;
+	position: absolute;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+.ver_conferencias p{
+	line-height: 30px;
+	color: #FFF;
+	font-size: 12px;
+	padding-left: 35px;
+	cursor: pointer;
+}
+
+.img_triangle{
+	background: url("../image/utilities/util/png/vermas.png");
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+	margin: -25px 11px;
+	position: absolute;
+}
+.link_talleres{
+	background-color: #308EBA;
+	height: 40px;
+	width: 289px;
+	border-radius: 10px;
+	border-bottom: 5px solid #1F576D;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+.link_talleres label{
+	text-align: center;
+	line-height: 42px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFF;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
+}
+
+.ico_talleres{
+	background-position: -90px -31px;
+	height: 30px;
+	width: 30px;
+	margin-top: -75px;
+	margin-left: 12px;
+}
+
+.link_concursos{
+	background-color: #F55857;
+	height: 40px;
+	width: 289px;
+	border-radius: 10px 10px 10px 10px;
+	border-bottom: 5px solid #AE414C;
+	margin-top: 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+.link_concursos label{
+	text-align: center;
+	line-height: 42px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFF;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
+}
+
+.ico_concursos{
+	background-position: -24px -32px;
+	height: 35px;
+	width: 30px;
+	margin-top: -62px;
+	margin-left: 11px;
+}
+
+.link_proyectos{
+	background-color: #9359AE;
+	height: 40px;
+	width: 289px;
+	border-radius: 10px 10px 10px 10px;
+	border-bottom: 5px solid #733c91;
+	margin-top: 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+.link_proyectos label{
+	text-align: center;
+	line-height: 42px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFF;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
+}
+
+.ico_proyectos{
+	background-position: -55px -32px;
+	height: 35px;
+	width: 30px;
+	margin-top: -60px;
+	margin-left: 11px;
+}
+
+.link_conferencias input:checked + label{
+	background-color: red;
+	height: 40px;
+	width: 289px;
+	border-radius: 10px 10px 0px 0px;
+}
+
 #third_block{
 	background-color: #111;
 	height: 420px;
@@ -402,6 +731,7 @@ button[type="submit"]{
 }
 
 
+<<<<<<< HEAD
 #institute .imginstitute #institutelogo1,#institutelogo2,#institutelogo3,#institutelogo4,#institutelogo5
 {
 		
@@ -453,45 +783,43 @@ transition: all 2.5s ease;
 	margin-left: 2em;
 }
 #institute .imginstitute #institutelogo2
-{
-	
-	max-width: 371px; 
-      height: 64px;
-     float: left;
-     position: relative;
-	top:32px;
-	margin-left: 2em;
+=======
+#institute .imginstitute .institutelogo1
+{	
+	filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
+	filter: Gray(); /* IE4-8 and 9 */
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
-#institute .imginstitute #institutelogo3
+#institute .imginstitute .institutelogo1:hover
 {
-	max-width: 371px; 
-     height: 64px;
-	float: left;
-	position: relative;
-	top:23px;
-	margin-left: 2em;
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	filter: none;
 }
-#institute .imginstitute #institutelogo4
+#institute .slides_container{height: 130px;}
+#institute .pagination{display: none}
+#institute .imginstitute .institutelogo1
+>>>>>>> 2d72952773e372bed42b95dce66b9540750fce20
 {
-	max-width: 371px; 
-     height: 64px;
-	float: left;
-	position: relative;
-	top:32px;
-	margin-left: 2em;
-}
-#institute .imginstitute #institutelogo5
-{
-	max-width: 371px; 
-     height: 64px;
-	float: left;
-	position: relative;
-	top:27px;
-	margin-left: 2em;
+	margin: 20px 25px;
+	text-align: center;
 }
 
-
-
+#institute .imginstitute .institutelogo1 img
+{
+	cursor: pointer;
+}
 
 /*END INSTITUTE*/
 #footer{

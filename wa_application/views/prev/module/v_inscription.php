@@ -1,8 +1,8 @@
 <div id="blq_inscription">
 	<header id="cabecera">
-		<h1>PRE-INSCRIPCI&Oacute;N</h1>
+		<h2>PRE-INSCRIPCI&Oacute;N</h2>
 	</header>
 	<section>
-		<?php $this->load->view('prev/module/list/inscription/l_inscription'); ?>
+		<iframe src="<?php echo base_url();?>pre-inscribirse/module" frameborder="0" width="100%" height="273"></iframe>
 	</section>
 </div>
