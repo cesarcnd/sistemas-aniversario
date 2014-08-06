@@ -398,6 +398,7 @@ button[type="submit"]{
 #institute .imginstitute
 {	
 	position: relative;
+
 }
 
 
@@ -417,12 +418,13 @@ filter: Gray(); /* IE4-8 and 9 */
 -o-transition: all 0.5s ease;
 transition: all 0.5s ease;
 
-2
+
 
 }
 #institute .imginstitute #institutelogo1:hover,#institutelogo2:hover,#institutelogo3:hover,#institutelogo4:hover,#institutelogo5:hover
+
 {
-	-webkit-filter: grayscale(0%);
+-webkit-filter: grayscale(0%);
 -moz-filter: grayscale(0%);
 -ms-filter: grayscale(0%);
 -o-filter: grayscale(0%);
@@ -433,10 +435,12 @@ filter: none;
 -o-transition: all 2.5s ease;
 transition: all 2.5s ease;	
 
- -moz-transform: rotate(-360deg);
-     -o-transform: rotate(-360deg);
-     -webkit-transform: rotate(-360deg);
-     transform: rotate(-360deg);
+
+}
+#institutelogo1
+{
+	 -webkit-animation: rotate3d2 4s linear infinite;
+     
 }
 
 #institute .imginstitute #institutelogo1
@@ -491,7 +495,7 @@ transition: all 2.5s ease;
 
 /*END INSTITUTE*/
 #footer{
-	background-color: #222;
+	background-color: #171717;
 	height: 285px;
 	padding: 0px;
 }
@@ -577,4 +581,107 @@ transition: all 2.5s ease;
 	height: 5px;
 	background-color: #E6866D;
 	vertical-align: top;
+}
+
+/*-------------------------------------------*/
+#footer .contenerpie
+{
+	
+	background-color:  #232323;
+	height: 227px;
+	width: 56%;
+	position: relative;
+	left: 22%;
+	color: white;
+
+}
+
+.footer_left
+{	
+	background-color: #171717;
+	width: 33%;
+	height: 100%;	
+	position: relative;
+	float: left;
+	font-size: 12px;
+	border-right: outset;
+	border-right-color:  #727070;
+}
+.titulo
+{
+	position: relative;
+top: 15px
+}
+.contenido
+{
+	position: relative;
+top: 11px
+}
+.footer_center
+{
+	background-color: #171717;
+	height: 100%;
+	width: 33%;
+	border-left: outset;
+	border-left-color:  #171717;
+}
+.footer_right
+{
+	background-color: #171717;
+	height: 100%;
+	width: 32%;
+}
+.fb-like-box
+{
+	height: 100%;
+	width: 33%;
+}
+.footer_center_a
+{
+	position: relative;
+	top: 5px;
+	font-size: 12px;
+	padding: 10px;
+	font-weight:bold;
+
+}
+.footer_center_b1
+{
+	background-color:  #171717;
+	width: 49%;
+	height: 84%;
+	vertical-align: top;
+	line-height:14px;
+	font-size: 12px;
+
+}
+.footer_center_b2
+{
+	background-color:  #171717;
+	width: 49%;
+	height: 84%;
+	vertical-align: top;
+	line-height:14px;
+	font-size: 12px;
+}
+#parrafo1
+{
+	padding: 25px;
+	position: relative;
+	left: -16px
+}
+#parrafo2
+{
+	padding: 25px;
+	top: 25px;
+	position: relative;
+	left: -16px
+}
+.pie_pagina
+{
+	text-align: center;
+	color: white;
+	background-color: #232323;
+	position: relative;
+	top: 11px;
 }
