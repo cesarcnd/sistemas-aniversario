@@ -318,11 +318,182 @@ span.sistemas_ico_youtube:before{
 	width: 667px;
 }
 /*END NOTICE*/
+/*START DIRECT ACCESS*/
 #access_direct{
-	background-color: #555;
+	background-color: #E0E0E0;
 	height: 400px;
 	width: 333px;
+	margin:0 auto;
 }
+
+.direct_access{
+	background-color: #FFF;
+	height: 368px;
+	width: 289px;
+	margin: 17px auto;
+	border-radius: 10px;
+}
+
+#link_conferencias{
+	background-color: #2FAB66;
+	height: 40px;
+	width: 289px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#link_conferencias h2{
+	text-align: center;
+	line-height: 42px;
+	font-weight: bold;
+	color: #FFF;
+	margin: 0 auto;
+}
+
+.ico_conferencias{
+	background-position: 6px -30px;
+	height: 30px;
+	width: 30px;
+	margin-top: -69px;
+	margin-left: 8px;
+}
+
+.conferencias_triangle{
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid #2FAB66;
+	height: 0px;
+	position: absolute;
+	top: 1001px;
+	right: 455px;
+	width: 0px;
+}
+
+#content_conferencias{
+	height: 200px;
+	width: 289px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.img_conferencias{
+	background: url("../image/body/direct_access/conferencias.jpg");
+	padding: 0;
+	height: 119px;
+	width: 176px;
+	margin: 23px 98px;
+	position: absolute;
+}
+
+#ver_conferencias{
+	background-color: #2EC671;
+	height: 30px;
+	width: 193px;
+	border-radius: 5px;
+	border-bottom: 5px solid #2FAB66;
+	margin: 163px 48px;
+	position: absolute;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+#ver_conferencias p{
+	line-height: 25px;
+	color: #FFF;
+	font-size: 12px;
+	padding-left: 35px;
+}
+
+#link_talleres{
+	background-color: #308EBA;
+	height: 40px;
+	width: 289px;
+	border-radius: 10px;
+	border-bottom: 5px solid #1F576D;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+#link_talleres h2{
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.ico_talleres{
+	background-position: -90px -31px;
+	height: 30px;
+	width: 30px;
+	margin-top: -75px;
+	margin-left: 12px;
+}
+
+#link_concursos{
+	background-color: #E7776B;
+	height: 40px;
+	width: 289px;
+	border-radius: 10px 10px 10px 10px;
+	border-bottom: 5px solid #D65D54;
+	margin-top: 4px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+#link_concursos h2{
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	color: #FFF;
+
+}
+
+.ico_concursos{
+	background-position: -24px -32px;
+	height: 35px;
+	width: 30px;
+	margin-top: -62px;
+	margin-left: 11px;
+}
+
+#link_proyectos{
+	background-color: #9359AE;
+	height: 40px;
+	width: 289px;
+	border-radius: 10px 10px 10px 10px;
+	border-bottom: 5px solid #733c91;
+	margin-top: 4px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+#link_proyectos h2{
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.ico_proyectos{
+	background-position: -55px -32px;
+	height: 35px;
+	width: 30px;
+	margin-top: -60px;
+	margin-left: 11px;
+}
+
+
 #third_block{
 	background-color: #111;
 	height: 420px;
