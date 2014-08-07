@@ -2,6 +2,7 @@
 <html lang="es">
 	<head>
 		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 		<meta name="description" content="XXI Aniversario de Ingenieria de Sistemas de la UNJFSC" />
 		<meta name="keywords" content="Aniversario de sistemas, Aniversario de Ing. de sistemas, Ingenieria de sistemas aniversario, xxi aniversario de ingenieria de sistemas" />
 		<title>XXI Aniversario de Ingenieria de Sistemas de la UNJFSC</title>
