@@ -485,7 +485,7 @@ span.sistemas_ico_youtube:before{
 	width: 27%;
 	height: 27%;
 	border-radius: 50%;
-	position: relative; top: -280px;
+	position: relative; top: -278px;
 	background: #f55857;
 	
 	/*-webkit-transition: all 0.4s ease-in-out;
@@ -654,7 +654,7 @@ span.sistemas_ico_youtube:before{
 }
 .ch-info2 h3 {
 	color: #fff;
-	position: relative; left: -5px;
+	position: relative; left: -5px; top: 0px;
 	font-size: 10px;
 	margin: 0 30px;
 	padding: 19px 0 0 0;
@@ -670,7 +670,7 @@ span.sistemas_ico_youtube:before{
 }
 .ch-info3 h3 {
 	color: #fff;
-	position: relative; left: -18px; top: 10px;
+	position: relative; left: -20px; top: 8px;
 	font-size: 12px;
 	margin: 0 30px;
 	height: 110px;
