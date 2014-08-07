@@ -8,6 +8,8 @@ class M_portal extends CI_Model{
 		$this->db->join('wa_notice no','tin.id_notice = no.id_notice');
 		$this->db->join('wa_image im','tin.id_image = im.id_image');
 		$this->db->where('tin.active',1);
+		$this->db->where('no.from',1);
+		$this->db->order_by('no.dateregister','desc');
 		$query =$this->db->get();
 		return $query->result_array(); 
 	}
@@ -44,5 +46,9 @@ class M_portal extends CI_Model{
 		$result=$this->db->insert('wa_event_academy_attendance',$data);
 
 		return $result;
+	}
+
+	function getGalleryImage(){
+		$this->load->database();
 	}
 }

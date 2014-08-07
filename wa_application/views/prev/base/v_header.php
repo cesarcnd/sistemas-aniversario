@@ -8,6 +8,6 @@
 		<div class="display-inline text">S&iacute;guenos en : </div>
 		<a href="https://www.facebook.com/AniversarioIngenieriaDeSistemasUnjfsc?fref=ts" target="_blank" class="sprite social_network display-inline facebook"></a>
 		<a href="https://twitter.com/" target="_blank" class="sprite social_network display-inline twitter"></a>
-		<a href="https://www.youtube.com/" target="_blank" class="social_network display-inline youtube"><span class="sistemas_ico_youtube"></span></a>
+		<a href="https://www.youtube.com/" target="_blank" class="sprite social_network display-inline youtube"></a>
 	</div>
 </div>

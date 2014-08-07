@@ -24,14 +24,8 @@
 .twitter:hover{
 	background-color: #3AA0EC;
 }
-span.sistemas_ico_youtube:before{
-	content: "\e606";
-}
 .youtube{
-	color: #fff;
-	height: initial;
-	width: initial;
-	padding: 5px 6px 5px 6px;
+	background-position: -90px -4px;
 }
 .youtube:hover{
 	background-color: #cc181e;
@@ -392,7 +386,7 @@ span.sistemas_ico_youtube:before{
 /*START DIRECT ACCESS*/
 #access_direct{
 	background-color: #E0E0E0;
-	height: 400px;
+	height: 445px;
 	width: 333px;
 	margin:0 auto;
 }
