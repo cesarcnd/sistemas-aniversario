@@ -1287,9 +1287,10 @@ transition: all 2.5s ease;
 	height: 100%;	
 	position: relative;
 	float: left;
-	font-size: 12px;
+	font-size: 13px;
 	border-right: outset;
 	border-right-color:  #727070;
+
 }
 .titulo
 {
@@ -1299,7 +1300,8 @@ top: 15px
 .contenido
 {
 	position: relative;
-top: 11px
+top: 11px;
+color:rgb(197, 193, 193);
 }
 .footer_center
 {
@@ -1331,18 +1333,20 @@ top: 11px
 }
 .footer_center_b1
 {
-	background-color:  #171717;
-	width: 49%;
+	background-color: #171717;
+	width: 52%;
 	height: 84%;
 	vertical-align: top;
-	line-height:14px;
+	line-height: 14px;
 	font-size: 12px;
+	position: relative;
+	left: 8%
 
 }
 .footer_center_b2
 {
 	background-color:  #171717;
-	width: 49%;
+	width: 45%;
 	height: 84%;
 	vertical-align: top;
 	line-height:14px;
@@ -1352,14 +1356,17 @@ top: 11px
 {
 	padding: 25px;
 	position: relative;
-	left: -16px
+	left: -16px;
+	top:-14px;
+	color:rgb(197, 193, 193);
 }
 #parrafo2
 {
 	padding: 25px;
-	top: 25px;
+	top: -14px;
 	position: relative;
-	left: -16px
+	left: -16px;
+	color:rgb(197, 193, 193);
 }
 .pie_pagina
 {
@@ -1368,4 +1375,36 @@ top: 11px
 	background-color: #232323;
 	position: relative;
 	top: 11px;
+	font-size: 13px;
+}
+
+#footer .social2
+{
+	margin-left: 5px;
+	margin-top: 34px;
+}
+/*.social2_network.facebook,.social2_network.twitter,.social2_network.youtube{
+	background-color: #333;
+	color:#fff;
+	
+}*/
+
+.facebook2{
+	background-position: 6px -4px;
+	background-color: #3b5998;
+	border-radius: 4px;
+}
+
+.twitter2{
+	background-position: -23px -4px;
+	background-color: #3AA0EC;
+	border-radius: 4px;
+}
+.youtube2{
+	color: #fff;
+	height: initial;
+	width: initial;
+	padding: 5px 6px 5px 6px;
+	background-color: #cc181e;
+	border-radius: 4px;
 }

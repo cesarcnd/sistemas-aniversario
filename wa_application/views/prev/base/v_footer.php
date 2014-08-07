@@ -24,11 +24,12 @@
 		E.A.P Ingenieria de Sistemas de la Facultad de
 		Ingeniería Industrial, Sistemas e Informatica
 		</div>
-		<div class="display-inline footer_left_logos">
-			<a href="https://www.facebook.com/AniversarioIngenieriaDeSistemasUnjfsc?fref=ts" target="_blank" class="sociales display-inline footer_facebook"></a>
-			<a href="https://twitter.com/" target="_blank" class="sociales display-inline footer_googleplus"></a>
-			<a href="https://www.youtube.com/" target="_blank" class="sociales display-inline footer_twitter"></a>
-		</div>
+		<div class="display-inline social2">
+		
+		<a href="https://www.facebook.com/AniversarioIngenieriaDeSistemasUnjfsc?fref=ts" target="_blank" class="sprite social2_network display-inline facebook2"></a>
+		<a href="https://twitter.com/" target="_blank" class="sprite social2_network display-inline twitter2"></a>
+		<a href="https://www.youtube.com/" target="_blank" class="social2_network display-inline youtube2"><span class="sistemas_ico_youtube"></span></a>
+	</div>
 	</div>
 	<div class="display-inline footer_center">
 
@@ -43,7 +44,7 @@
 		</div>
 		<div class="display-inline footer_center_b2">
 			<div id="parrafo2">
-			<p>Contacto</p></br>
+			<p style="color:white">Contacto</p></br>
 			<p>(01)237-16555</p></br>
 			<p>Proyecto 3</p></br>
 			</div>
@@ -61,8 +62,8 @@
 
 <div class="pie_pagina">
 		
-		<p>Alumnos del IX cilo de Ingenieria de Sistemas de laUNJFSC</p> 
-		<p>2014 todos los derechos
+		<p>Alumnos del IX ciclo de Ingenieria de Sistemas de la UNJFSC</p> 
+		<p>2014 © todos los derechos reservados
 		</p>
 	</div>
 </div>
