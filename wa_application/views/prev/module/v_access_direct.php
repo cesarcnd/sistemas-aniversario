@@ -3,47 +3,53 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="<?php echo base_url()?>resource/css/base.css" type="text/css">
+	<script type="text/javascript" src="resource/js/like.js"></script>
+	<script type="text/javascript" src="resource/js/jquery-collapsible.min.js"></script>
 </head>
 <body>
 	<div class="direct_access">
 		<div id="conferencias">
-			<div id="link_conferencias">
-				<h2>CONFERENCIAS</h2>
+			<div class="link_conferencias">
+			<div class="sombra_conferencias">
+				<input type="checkbox" id="ad">
+				<label for="ad">CONFERENCIAS</label>
 				<div class="sprite ico_conferencias display-inline"></div>
 				<div class="conferencias_triangle"></div>
 			</div>
-			<div id="content_conferencias">
+			</div>
+			<div class="content_conferencias">
+				<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div>
 				<div class="img_conferencias"></div>
-				<div id="ver_conferencias">
+				<div class="ver_conferencias">
 					<p>Conozca las conferencias</p>
-					
+					<div class="img_triangle"></div>
 				</div>
 			</div>
 		</div>
 		<div id="talleres">
-			<div id="link_talleres">
-				<h2>TALLERES</h2>
+			<div class="link_talleres">
+				<label for="ad">TALLERES</label>
 				<div class="sprite ico_talleres display-inline"></div>
 			</div>
-			<div id="content_talleres">
+			<div class="content_talleres">
 				
 			</div>
 		</div>
 		<div id="concursos">
-			<div id="link_concursos">
-				<h2>CONCURSOS</h2>
+			<div class="link_concursos">
+				<label>CONCURSOS</label>
 				<div class="sprite ico_concursos display-inline"></div>
 			</div>
-			<div id="content_concursos">
+			<div class="content_concursos">
 				
 			</div>
 		</div>
 		<div id="proyectos">
-			<div id="link_proyectos">
-				<h2>PROYECTOS</h2>
+			<div class="link_proyectos">
+				<label>PROYECTOS</label>
 				<div class="sprite ico_proyectos display-inline"></div>
 			</div>
-			<div id="content_proyectos">
+			<div class="content_proyectos">
 				
 			</div>
 		</div>

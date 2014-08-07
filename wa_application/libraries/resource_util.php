@@ -8,8 +8,8 @@ class Resource_util {
         {   if($new_info['type_image']=='L')
             {   $img=$new_info['image'];
                 switch ($front) {
-                    case 0:$new_info['image']=base_url().'resource/image/body/images/notice/thumbnail/'.$img;break;
-                    case 1:$new_info['image']=base_url().'resource/image/body/images/notice/front/'.$img;break;
+                    case 0:$new_info['image']=base_url().'resource/image/body/images/front-600/'.$img;break;
+                    case 1:$new_info['image']=base_url().'resource/image/body/images/front-1024/'.$img;break;
                 }
                 array_push($data_front, $new_info);
             }

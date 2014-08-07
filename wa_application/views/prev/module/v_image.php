@@ -1,8 +1,3 @@
-<?php $photos=array(
-	array("image"=>base_url()."resource/image/body/images/gallery/photo/front/IMG_5523.JPG","url_gallery_image"=>"tlkj","title_gallery_image"=>"Partido inagural"),
-	array("image"=>base_url()."resource/image/body/images/gallery/photo/front/IMG_5524.JPG","url_gallery_image"=>"tlkj","title_gallery_image"=>"Los docentes tambien juegan")
-);
- ?>
 <div class="multimedia">
 	
 	<div class="circle">
