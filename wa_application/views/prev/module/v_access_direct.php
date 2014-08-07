@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="<?php echo base_url()?>resource/css/base.css" type="text/css">
-	<script type="text/javascript" src="resource/js/like.js"></script>
-	<script type="text/javascript" src="resource/js/tweet.js"></script>
-	<script type="text/javascript" src="resource/js/collapsible.js"></script>
-	<script type="text/javascript" src="resource/js/jquery-collapsible.min.js"></script>
-</head>
-<body>
 	<div class="direct_access">
 		<div id="conferencias">
 			<div class="link_conferencias">
@@ -56,6 +45,3 @@
 			</div>
 		</div>
 	</div>
-	
-</body>
-</html>
