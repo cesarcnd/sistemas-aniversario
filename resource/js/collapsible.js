@@ -1,4 +1,4 @@
-$('.link_conferencias').collapsible('accordion', {
+$('.sombra_conferencias').collapsible('accordion', {
   
 });
 $('.link_concursos').collapsible('accordion-open', {
