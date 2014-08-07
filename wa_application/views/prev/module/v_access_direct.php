@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="<?php echo base_url()?>resource/css/base.css" type="text/css">
 	<script type="text/javascript" src="resource/js/like.js"></script>
+	<script type="text/javascript" src="resource/js/tweet.js"></script>
 	<script type="text/javascript" src="resource/js/jquery-collapsible.min.js"></script>
 </head>
 <body>
@@ -19,6 +20,7 @@
 			</div>
 			<div class="content_conferencias">
 				<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://dev.twitter.com/pages/tweet_button" data-via="your_screen_name" data-lang="en" data-related="anywhereTheJavascriptAPI" data-count="vertical">Tweet</a>
 				<div class="img_conferencias"></div>
 				<div class="ver_conferencias">
 					<p>Conozca las conferencias</p>
