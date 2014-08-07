@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="<?php echo base_url()?>resource/css/base.css" type="text/css">
 	<script type="text/javascript" src="resource/js/like.js"></script>
 	<script type="text/javascript" src="resource/js/tweet.js"></script>
+	<script type="text/javascript" src="resource/js/collapsible.js"></script>
 	<script type="text/javascript" src="resource/js/jquery-collapsible.min.js"></script>
 </head>
 <body>
@@ -12,8 +13,7 @@
 		<div id="conferencias">
 			<div class="link_conferencias">
 			<div class="sombra_conferencias">
-				<input type="checkbox" id="ad">
-				<label for="ad">CONFERENCIAS</label>
+				<label>CONFERENCIAS</label>
 				<div class="sprite ico_conferencias display-inline"></div>
 				<div class="conferencias_triangle"></div>
 			</div>
@@ -30,7 +30,7 @@
 		</div>
 		<div id="talleres">
 			<div class="link_talleres">
-				<label for="ad">TALLERES</label>
+				<label>TALLERES</label>
 				<div class="sprite ico_talleres display-inline"></div>
 			</div>
 			<div class="content_talleres">
