@@ -218,20 +218,23 @@ span.sistemas_ico_youtube:before{
   	writing-mode: vertical-rl;
 }
 
-#blq_programming section.body-programming{
+#blq_programming section.body-programming,
+#blq_informative section.body-informative{
 	background-color: #FFF;
 	width: 257px;
 	height: 270px;
 	border-radius: 0 0 5px 0;
 	overflow: hidden;
 }
-#blq_programming section.body-programming div.item-programming{
+#blq_programming section.body-programming div.item-programming,
+#blq_informative section.body-informative div.item-informative{
 	background-color: #fff;
 	width: 257px;
 	height: 95px;
 	border-bottom: 0.08em solid #e0e0e0;
 }
-#blq_programming div.item-programming .image{
+#blq_programming div.item-programming .image,
+#blq_informative div.item-informative .image{
 	width: 70px;
 	height: 95px;
 	text-align: center;
@@ -250,7 +253,8 @@ span.sistemas_ico_youtube:before{
 	height: 100%;
 }
 
-#blq_programming div.item-programming .content{
+#blq_programming div.item-programming .content,
+#blq_informative div.item-informative .content{
 	width: 177px;
 	height: 95px;
 	padding: 5px 0;
@@ -262,11 +266,14 @@ span.sistemas_ico_youtube:before{
 	box-sizing: border-box;
 }
 #blq_programming div.item-programming .content p,
-#blq_programming div.item-programming .content span {
+#blq_programming div.item-programming .content span,
+#blq_informative div.item-informative .content p,
+#blq_informative div.item-informative .content span {
 	margin: 5px 0;
 	font-size: 0.84em;
 }
-#blq_programming div.item-programming .content p.title{
+#blq_programming div.item-programming .content p.title,
+#blq_informative div.item-informative .content p.title{
 	font-size: 0.96em;
 	font-weight: bold;
 }
@@ -276,6 +283,44 @@ span.sistemas_ico_youtube:before{
 	background-color: #E0E0E0;
 	height: 360px;
 	width: 334px;
+}
+#blq_informative nav{
+	background: #ececec;
+	border: .08em solid #e0e0e0;
+	width: 99.2%;
+	height: 30px;
+	text-align: center;
+}
+#blq_informative nav div{
+	border-left: 0.08em solid #e0e0e0;
+	width: 42.5%;
+	color: #333;
+	height: 30px;
+	line-height: 30px;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#blq_informative nav div.menu{
+	width: 15%;
+}
+
+#blq_informative section.body-informative{
+	width: 100%;
+	height: 240px;
+	border-radius: 0 0 8px 0;
+}
+#blq_informative section.body-informative div.item-informative{
+	width: 100%;
+}
+#blq_informative div.item-informative .content{
+	width: 200px;
+}
+#blq_informative div.item-informative .image{
+	width: 89px;
 }
 /*END AREA INFORMATIVE*/
 /*STAR INSCRIPTION*/
