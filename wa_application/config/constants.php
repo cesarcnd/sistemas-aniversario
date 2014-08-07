@@ -20,7 +20,7 @@ define('DIR_WRITE_MODE', 0777);
 
 /*
 |--------------------------------------------------------------------------
-| File Stream Modes
+| File Stream Modes-
 |--------------------------------------------------------------------------
 |
 | These modes are used when working with fopen()/popen()
@@ -35,7 +35,7 @@ define('FOPEN_WRITE_CREATE',					'ab');
 define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
-
+define('IMAGE_PATH', 'resource/image/');
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
