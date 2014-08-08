@@ -6,9 +6,18 @@ class C_portal extends CI_Controller {
 	{
 		$this->getUtil();
 		$this->DATA['fronts']=$this->resource_util->img_change_local($this->m_portal->getListFront(),1);
+		$this->DATA['photos']=$this->resource_util->img_change_local($this->m_portal->getGalleryImage(),0);
+		$this->DATA['videos']=$this->m_portal->getGalleryVideo();
 		$this->load->view('prev/v_portal',$this->DATA);
 	}
 
+	public function not_found(){
+		$this->DATA['title_page']='Pagina no encontrada';
+		$this->DATA['title']='Pagina no encontrada';
+		$this->DATA['interior']='not_found';
+		$this->load->view('prev/v_interior_general',$this->DATA);
+	}
+	
 	public function getUtil(){
 		$this->load->model('prev/m_portal');
 		$this->load->library('resource_util');

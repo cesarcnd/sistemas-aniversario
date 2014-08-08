@@ -1,5 +1,22 @@
 <section class="item_notice sup_notice">
-	<section class="display-inline img_notice"></section><!--
+	<section class="display-inline img_notice">
+		<div class="day_notice">
+			<p>04</p>
+			<p>Jul</p>
+		</div>
+		<div class="img-border">
+			<div class="web_site_opacity">
+				<div class="share_social">
+					<a href="https://www.facebook.com/AniversarioIngenieriaDeSistemasUnjfsc?fref=ts" target="_blank" class="sprite social_network display-inline facebook"></a>
+					<a href="https://twitter.com/" target="_blank" class="sprite social_network display-inline twitter"></a>
+				</div>
+			</div>
+			<a href="javascript:;" >
+				<img src="<?php echo base_url()?>resource/image/body/images/image-400/teqienhos.jpg"/> 
+			</a>
+		</div>
+		<a href="javascript:;" class="more_notice">+</a>
+	</section><!--
 	--><section class="display-inline content_notice">
 		<header class="header_notice">
 			<h3>Inaguraci&oacute;n del campo de Ingenier&iacute;a</h3>
@@ -32,5 +49,22 @@
 			<a href="javascript:;" class="btn_all display-inline">Ver todo</a>
 		</div>
 	</section><!--
-	--><section class="display-inline img_notice"></section>
+	--><section class="display-inline img_notice">
+		<div class="day_notice">
+			<p>01</p>
+			<p>Jul</p>
+		</div>
+		<div class="img-border">
+			<div class="web_site_opacity">
+				<div class="share_social">
+					<a href="https://www.facebook.com/AniversarioIngenieriaDeSistemasUnjfsc?fref=ts" target="_blank" class="sprite social_network display-inline facebook"></a>
+					<a href="https://twitter.com/" target="_blank" class="sprite social_network display-inline twitter"></a>
+				</div>
+			</div>
+			<a href="javascript:;">
+				<img src="<?php echo base_url()?>resource/image/body/images/image-400/sorteo.jpg"/> 
+			</a>
+		</div>
+		<a href="javascript:;" class="more_notice">+</a>
+	</section>
 </section>

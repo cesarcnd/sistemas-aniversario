@@ -21,6 +21,12 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+	public function not_found(){
+		$this->DATA['title_page']='Pagina no encontrada';
+		$this->DATA['title']='Pagina no encontrada';
+		$this->DATA['interior']='not_found';
+		$this->load->view('prev/v_interior_general',$this->DATA);
+	}
 }
 
 /* End of file welcome.php */
