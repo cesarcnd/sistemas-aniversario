@@ -14,9 +14,8 @@
 						<div class="ch-item ch-img-2">
 							<div class="ch-info">
 								<h3></h3>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/AniversarioIngenieriaDeSistemasUnjfsc?fref=ts">
-		<img src="<?php echo base_url()?>resource/image/utilities/organization/18.jpg"/ ></a>
-		<a href="https://twitter.com/" target="_blank">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<script>function fbs_click() {u=location.href;t=document.title;window.open("http://www.facebook.com/sharer.php?u="+encodeURIComponent(u)+"&t="+encodeURIComponent(t),"sharer","toolbar=0,status=0,width=626,height=436");return false;}</script><a href="http://www.facebook.com/share.php?u=&lt;url&gt;" onclick="return fbs_click()" target="_blank"><img img src="<?php echo base_url()?>resource/image/utilities/organization/18.jpg"/ alt="Compartir en Facebook" src="http://www.gxportal.com/media/design/style000001/00000001440000001270.png" border="0"/></a>
+		<a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flocalhost%3A81%2Fsistemas-aniversario%2F&amp;related=anywhereTheJavascriptAPI&amp;text=XXI%20Aniversario%20de%20Ingenieria%20de%20Sistemas%20de%20la%20UNJFSC&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdev.twitter.com%2Fpages%2Ftweet_button&amp;via=your_screen_name" target="_blank">
 		<img src="<?php echo base_url()?>resource/image/utilities/organization/19.jpg"/ ></a>
                                 
 						  </div>
@@ -117,9 +116,8 @@
 						<div class="ch-item1 ch-img-1">
 						<div class="ch-info1">
 								<h3></h3>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/AniversarioIngenieriaDeSistemasUnjfsc?fref=ts">
-		<img src="<?php echo base_url()?>resource/image/utilities/organization/18.jpg"/ ></a>
-		<a href="https://twitter.com/" target="_blank">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<script>function fbs_click() {u=location.href;t=document.title;window.open("http://www.facebook.com/sharer.php?u="+encodeURIComponent(u)+"&t="+encodeURIComponent(t),"sharer","toolbar=0,status=0,width=626,height=436");return false;}</script><a href="http://www.facebook.com/share.php?u=&lt;url&gt;" onclick="return fbs_click()" target="_blank"><img img src="<?php echo base_url()?>resource/image/utilities/organization/18.jpg"/ alt="Compartir en Facebook" src="http://www.gxportal.com/media/design/style000001/00000001440000001270.png" border="0"/></a>
+		<a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flocalhost%3A81%2Fsistemas-aniversario%2F&amp;related=anywhereTheJavascriptAPI&amp;text=XXI%20Aniversario%20de%20Ingenieria%20de%20Sistemas%20de%20la%20UNJFSC&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fdev.twitter.com%2Fpages%2Ftweet_button&amp;via=your_screen_name" target="_blank">
 		<img src="<?php echo base_url()?>resource/image/utilities/organization/19.jpg"/ ></a>
                                 
 						  </div>
