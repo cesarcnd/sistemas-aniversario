@@ -37,9 +37,9 @@
 		</div>
 		<div class="display-inline footer_center_b2">
 			<div id="parrafo2">
-				<p>Contacto</p></br>
-				<p>(01)237-16555</p></br>
-				<p>Proyecto 3</p></br>
+			<p style="color:white">Contacto</p></br>
+			<p>(01)237-16555</p></br>
+			<p>Proyecto 3</p></br>
 			</div>
 		</div>
 	</div>
@@ -49,8 +49,10 @@
 	</div>
 </div>
 
-	<div class="pie_pagina">	
-		<p>Alumnos del IX cilo de Ingenieria de Sistemas de laUNJFSC</p> 
-		<p>2014 todos los derechos</p>
+<div class="pie_pagina">
+		
+		<p>Alumnos del IX ciclo de Ingenieria de Sistemas de la UNJFSC</p> 
+		<p>2014 © todos los derechos reservados
+		</p>
 	</div>
 </div>

@@ -1,0 +1,19 @@
+.b-body .left-body{
+	height: 844px;
+	width: 667px;
+}
+.b-body .right-body{
+	background-color: #E0E0E0;
+	width: 333px;
+}
+#browser ul li.list ul.sub_list{
+	background-color: rgba(42,128,156,1);
+}
+.construction{
+	margin-top: 10%;
+	text-align: center;
+}
+.not_found img{
+	margin-top: 10%;
+	width: 100%;
+}

@@ -56,6 +56,7 @@ class M_portal extends CI_Model{
 		$this->db->where('gi.active',1);
 		$this->db->where('im.front_gallery',1);
 		$this->db->order_by('gi.dateregister','desc');
+		$this->db->limit(4,0);
 		$query =$this->db->get();
 		return $query->result_array(); 
 	}
@@ -67,6 +68,7 @@ class M_portal extends CI_Model{
 		$this->db->where('gv.active',1);
 		$this->db->where('vi.front',1);
 		$this->db->order_by('gv.dateregister','desc');
+		$this->db->limit(4,0);
 		$query =$this->db->get();
 		return $query->result_array(); 
 	}
