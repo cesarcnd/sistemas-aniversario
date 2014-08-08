@@ -1,8 +1,8 @@
-	<div class="direct_access">
+	<div id="direct_access">
 		<div id="conferencias">
 			<div class="link_conferencias">
 			<div class="sombra_conferencias">
-				<label>CONFERENCIAS</label>
+				<h2>CONFERENCIAS</h2>
 				<div class="sprite ico_conferencias display-inline"></div>
 				<div class="conferencias_triangle"></div>
 			</div>
@@ -19,7 +19,7 @@
 		</div>
 		<div id="talleres">
 			<div class="link_talleres">
-				<label>TALLERES</label>
+				<h2>TALLERES</h2>
 				<div class="sprite ico_talleres display-inline"></div>
 			</div>
 			<div class="content_talleres">
@@ -28,7 +28,7 @@
 		</div>
 		<div id="concursos">
 			<div class="link_concursos">
-				<label>CONCURSOS</label>
+				<h2>CONCURSOS</h2>
 				<div class="sprite ico_concursos display-inline"></div>
 			</div>
 			<div class="content_concursos">
@@ -37,7 +37,7 @@
 		</div>
 		<div id="proyectos">
 			<div class="link_proyectos">
-				<label>PROYECTOS</label>
+				<h2>PROYECTOS</h2>
 				<div class="sprite ico_proyectos display-inline"></div>
 			</div>
 			<div class="content_proyectos">

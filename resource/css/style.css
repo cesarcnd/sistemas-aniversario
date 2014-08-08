@@ -397,7 +397,7 @@ span.sistemas_ico_youtube:before{
 	margin:0 auto;
 }
 
-.direct_access{
+#direct_access{
 	background-color: #FFF;
 	height: 400px;
 	width: 289px;
@@ -423,7 +423,7 @@ input[type="checkbox"]{
 	display: none;
 }
 
-.link_conferencias label{
+.link_conferencias h2{
 	text-align: center;
 	line-height: 42px;
 	font-weight: bold;
@@ -533,7 +533,7 @@ input[type="checkbox"]{
 	-ms-box-sizing: border-box;
 }
 
-.link_talleres label{
+.link_talleres h2{
 	text-align: center;
 	line-height: 42px;
 	font-weight: bold;
@@ -566,7 +566,7 @@ input[type="checkbox"]{
 	-ms-box-sizing: border-box;
 }
 
-.link_concursos label{
+.link_concursos h2{
 	text-align: center;
 	line-height: 42px;
 	font-weight: bold;
@@ -599,7 +599,7 @@ input[type="checkbox"]{
 	-ms-box-sizing: border-box;
 }
 
-.link_proyectos label{
+.link_proyectos h2{
 	text-align: center;
 	line-height: 42px;
 	font-weight: bold;
