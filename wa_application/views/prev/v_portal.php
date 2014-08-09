@@ -18,7 +18,6 @@
 		<script type="text/javascript" src="resource/js/like.js"></script>
 		<script type="text/javascript" src="resource/js/tweet.js"></script>
 		<script type="text/javascript" src="resource/js/jquery-collapsible.min.js"></script>
-		<script type="text/javascript" src="resource/js/collapsible.js"></script>
 		<script>base_url="<?php echo base_url()?>"</script>
 	</head>
 	<body>

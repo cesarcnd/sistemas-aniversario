@@ -31,6 +31,6 @@
 			</div>
 		</form>
 	</div>
-	<script src="<?php echo base_url()?>resource/js/base.js"></script>	
+		<script src="<?php echo base_url()?>resource/js/base.js"></script>
 </body>
 </html>
