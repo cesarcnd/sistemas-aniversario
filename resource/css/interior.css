@@ -1,5 +1,11 @@
 .b-body .left-body{
 	height: 844px;
+	padding: 50px 20px 0px 20px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
 	width: 667px;
 }
 .b-body .right-body{
