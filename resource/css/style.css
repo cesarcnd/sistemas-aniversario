@@ -160,6 +160,11 @@
 	margin-top: 7px;
 	width: 100%;
 }
+#public .fechcont .contenido{
+	line-height: inherit;
+	padding: 0px;
+	color: #fff;
+}
 /*END PUBLIC*/
 
 
@@ -516,14 +521,14 @@
 }
 
 .link_conferencias{
-	background-color: #2EC671;
+	background-color: #2FAB66;
 	height: 40px;
 	width: 289px;
 	border-radius: 10px 10px 0px 0px;
 }
 
 .sombra_conferencias{
-	background-color: #2FAB66;
+	background-color: #2EC671;
 	height: 20px;
 	width: 289px;
 	border-radius: 10px 10px 0px 0px;
@@ -563,13 +568,20 @@ input[type="checkbox"]{
 	right: 453px;
 }
 
-.content_conferencias{
+.content_conferencias,.content_talleres,.content_concursos,.content_proyectos{
 	height: 230px;
 	width: 289px;
 	margin: 0 auto;
 	position: relative;
 }
 
+.content_conferencias .first_block,.content_talleres .first_block,.content_concursos .first_block,.content_proyectos .first_block{
+	height: 180px;
+}
+.content_conferencias .first_block .social_plugin,.content_talleres .first_block .social_plugin,.content_concursos .first_block .social_plugin,.content_proyectos .first_block .social_plugin{
+	height: 180px;
+	width: 95px;
+}
 .fb-like {
 	margin-top: 28px;
 	margin-left: 12px;
@@ -578,20 +590,15 @@ input[type="checkbox"]{
 .twitter-share-button{
 	width: 59px;
 	height: 62px;
-	position: absolute;
 	margin-left: 20px;
 	margin-top: 15px;
-
 }
 
 .img_conferencias{
 	background: url("../image/body/direct_access/conferencias.jpg");
 	background-repeat: no-repeat;
-	padding: 0;
 	height: 119px;
 	width: 176px;
-	margin: -52px 98px;
-	position: relative;
 	box-shadow: 0px 0px 10px #969696;
 	-webkit-box-shadow: 0px 0px 10px #969696;
 	-moz-box-shadow: 0px 0px 10px #969696;
@@ -599,13 +606,12 @@ input[type="checkbox"]{
 	-ms-box-shadow: 0px 0px 10px #969696;
 }
 
-.ver_conferencias{
-	background-color: #2EC671;
-	height: 33px;
+.btns_more{
+	left: 50px;
+	height: 30px;
 	width: 193px;
 	border-radius: 5px;
-	border-bottom: 5px solid #2FAB66;
-	margin: 79px 48px;
+	
 	position: absolute;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -614,8 +620,40 @@ input[type="checkbox"]{
 	-ms-box-sizing: border-box;
 }
 
-.ver_conferencias p{
-	line-height: 30px;
+.ver_conferencias{
+	background-color: #2EC671;
+	box-shadow: 0px 5px 0px #2fab66;
+	-webkit-box-shadow: 0px 5px 0px #2fab66;
+	-moz-box-shadow: 0px 5px 0px #2fab66;
+	-o-box-shadow: 0px 5px 0px #2fab66;
+	-ms-box-shadow: 0px 5px 0px #2fab66;
+}
+.ver_talleres{
+	background-color:#308EBA;
+	box-shadow: 0px 5px 0px #1F576D;
+	-webkit-box-shadow: 0px 5px 0px #1F576D;
+	-moz-box-shadow: 0px 5px 0px #1F576D;
+	-o-box-shadow: 0px 5px 0px #1F576D;
+	-ms-box-shadow: 0px 5px 0px #1F576D;
+}
+.ver_concursos{
+	background-color:#F55857;
+	box-shadow: 0px 5px 0px #AE414C;
+	-webkit-box-shadow: 0px 5px 0px #AE414C;
+	-moz-box-shadow: 0px 5px 0px #AE414C;
+	-o-box-shadow: 0px 5px 0px #AE414C;
+	-ms-box-shadow: 0px 5px 0px #AE414C;
+}
+.ver_proyectos{
+	background-color:#9359AE;
+	box-shadow: 0px 5px 0px #733c91;
+	-webkit-box-shadow: 0px 5px 0px #733c91;
+	-moz-box-shadow: 0px 5px 0px #733c91;
+	-o-box-shadow: 0px 5px 0px #733c91;
+	-ms-box-shadow: 0px 5px 0px #733c91;
+}
+.ver_conferencias p,.ver_concursos p,.ver_talleres p,.ver_proyectos p{
+	line-height: 33px;
 	color: #FFF;
 	font-size: 12px;
 	padding-left: 35px;
@@ -635,7 +673,12 @@ input[type="checkbox"]{
 	height: 40px;
 	width: 289px;
 	border-radius: 10px;
-	border-bottom: 5px solid #1F576D;
+	margin-top: 5px;
+	box-shadow: 0px 5px 0px #1F576D;
+	-webkit-box-shadow: 0px 5px 0px #1F576D;
+	-moz-box-shadow: 0px 5px 0px #1F576D;
+	-o-box-shadow: 0px 5px 0px #1F576D;
+	-ms-box-shadow: 0px 5px 0px #1F576D;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -667,8 +710,12 @@ input[type="checkbox"]{
 	height: 40px;
 	width: 289px;
 	border-radius: 10px 10px 10px 10px;
-	border-bottom: 5px solid #AE414C;
-	margin-top: 5px;
+	box-shadow: 0px 5px 0px #AE414C;
+	-webkit-box-shadow: 0px 5px 0px #AE414C;
+	-moz-box-shadow: 0px 5px 0px #AE414C;
+	-o-box-shadow: 0px 5px 0px #AE414C;
+	-ms-box-shadow: 0px 5px 0px #AE414C;
+	margin-top: 10px;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -700,8 +747,8 @@ input[type="checkbox"]{
 	height: 40px;
 	width: 289px;
 	border-radius: 10px 10px 10px 10px;
-	border-bottom: 5px solid #733c91;
-	margin-top: 5px;
+	box-shadow: 0px 5px 0px #733c91;
+	margin-top: 10px;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -887,7 +934,6 @@ input[type="checkbox"]{
 {
 	width: 100%;
 	height: 5px;
-	background-color: ;
 	vertical-align: top;
 	display: block;
 }
@@ -969,49 +1015,42 @@ input[type="checkbox"]{
 /*-------------------------------------------*/
 #footer .contenerpie
 {
-	
-	background-color:  #232323;
-	height: 227px;
+	height: 245px;
+	margin: 15px auto;
 	position: relative;
 	color: white;
-
 }
 
 .footer_left
 {	
-	background-color: #171717;
-	width: 33%;
-	height: 100%;	
-	position: relative;
-	float: left;
+	width: 332px;
+	height: 97%;	
 	font-size: 13px;
-	border-right: outset;
-	border-right-color:  #727070;
-
+	border-right: 1px solid #0f0f0f;
 }
 .titulo
 {
-	position: relative;
-top: 15px
+	margin-top: 20px;
 }
 .contenido
 {
-	position: relative;
-top:0px;
+	color: #bdbdbd;
+	line-height: 18px;
+	padding: 13px 15px;
 }
 .footer_center
 {
-	background-color: #171717;
-	height: 100%;
-	width: 33%;
-	border-left: outset;
-	border-left-color:  #171717;
+	height: 97%;
+	width: 332px;
+	border-left: 1px solid #333;
+	border-right: 1px solid #0f0f0f;
 }
 .footer_right
 {
-	background-color: #171717;
-	height: 100%;
-	width: 32%;
+	border-left: 1px solid #333;
+	height: 97%;
+	text-align: center;
+	width: 332px;
 }
 .fb-like-box
 {
@@ -1020,10 +1059,9 @@ top:0px;
 }
 .footer_center_a
 {
-	position: relative;
-	top: 5px;
+	margin-top: 10px;
 	font-size: 12px;
-	padding: 10px;
+	padding: 10px 10px 0px 10px;;
 	font-weight:bold;
 
 }
@@ -1069,8 +1107,7 @@ top:0px;
 	text-align: center;
 	color: white;
 	background-color: #232323;
-	position: relative;
-	top: 11px;
+	padding: 10px 0px;
 	font-size: 13px;
 }
 
