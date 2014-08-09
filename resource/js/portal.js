@@ -21,10 +21,11 @@ $(function(){
 		navigationHover:false
 	});
 
-	setInterval(function(){
+	setInterval(function(){debugger;
 		var href_video = $('#video_camera .camera_link').attr('href');
 		var href_photo = $('#photo_camera .camera_link').attr('href');
+		console.info(href_video);
 		$('#video .video_href').attr('href',href_video);
-		$('#image .photo_href').attr('href',href_video);
-	},0);
+		$('#image .photo_href').attr('href',href_photo);
+	},10);
 });

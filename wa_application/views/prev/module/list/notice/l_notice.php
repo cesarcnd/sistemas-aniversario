@@ -41,7 +41,7 @@
 		<div class="time_notice">04 de Julio de 2014 | <a href="javascript:;" class="link_notice">Sistemas deportes</a></div>
 		<article class="abstract_notice">
 			La inaguración se dio, con la presencia de nuestras autoridades de la Facultad de 
-			Ingenieria Industrial, Sistemas e Informática La inaguración se dio, con la presencia de 
+			Ingenieria Industrial, Sistemas e Informática. La inaguración se dio, con la presencia de 
 			nuestras autoridades de la Facultad...
 		</article>
 		<div class="btns_notice">

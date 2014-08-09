@@ -39,7 +39,7 @@
 						$this->data['url_social'] = base_url().'talleres/aniversario/todos';
 						$this->load->view('prev/base/v_social_network_access_direct',$this->data); ?>
 					</div>
-					<div class="img_conferencias display-inline"></div>
+					<div class="img_talleres display-inline"></div>
 				</div>
 				<div class="btns_more ver_talleres">
 					<p>Conozca los talleres</p>
@@ -59,7 +59,7 @@
 						$this->data['url_social'] = base_url().'concursos/aniversario/todos';
 						$this->load->view('prev/base/v_social_network_access_direct',$this->data); ?>
 					</div>
-					<div class="img_conferencias display-inline"></div>
+					<div class="img_concursos display-inline"></div>
 				</div>
 				<div class="btns_more ver_concursos">
 					<p>Conozca los Concursos</p>
@@ -78,7 +78,7 @@
 						$this->data['url_social'] = base_url().'proyectos/aniversario/todos';
 						$this->load->view('prev/base/v_social_network_access_direct',$this->data); ?>
 					</div>
-					<div class="img_conferencias display-inline"></div>
+					<div class="img_proyectos display-inline"></div>
 				</div>
 				<div class="btns_more ver_proyectos">
 					<p>Conozca los Proyectos</p>

@@ -397,12 +397,12 @@
 }
 #notice .item_notice .content_notice .header_notice h3{
 	font-size: 13px;
-	padding: 12px 8px;
+	padding: 12px 27px;
 }
 #notice .item_notice .content_notice .time_notice{
 	color: #666666;
 	font-size: 12px;
-	padding: 3px 0px 7px 8px;
+	padding: 3px 0px 7px 28px;
 }
 #notice .item_notice .content_notice .time_notice .link_notice{
 	text-decoration: underline;
@@ -411,7 +411,7 @@
 	color: #444444;
 	font-size: 13px;
 	height: 75px;
-	padding: 0px 10px;
+	padding: 0px 27px;
 }
 #notice .item_notice.sup_notice .content_notice .btns_notice{
 	padding: 5px 20px 5px 10px;
@@ -514,7 +514,7 @@
 
 #direct_access{
 	background-color: #FFF;
-	height: 400px;
+	height: 425px;
 	width: 289px;
 	margin: 22px auto;
 	border-radius: 10px;
@@ -628,6 +628,18 @@ input[type="checkbox"]{
 	-o-box-shadow: 0px 5px 0px #2fab66;
 	-ms-box-shadow: 0px 5px 0px #2fab66;
 }
+.img_talleres{
+	background: url("../image/body/direct_access/talleres.jpg");
+	background-repeat: no-repeat;
+	height: 119px;
+	width: 176px;
+	box-shadow: 0px 0px 10px #969696;
+	-webkit-box-shadow: 0px 0px 10px #969696;
+	-moz-box-shadow: 0px 0px 10px #969696;
+	-o-box-shadow: 0px 0px 10px #969696;
+	-ms-box-shadow: 0px 0px 10px #969696;
+}
+
 .ver_talleres{
 	background-color:#308EBA;
 	box-shadow: 0px 5px 0px #1F576D;
@@ -636,6 +648,18 @@ input[type="checkbox"]{
 	-o-box-shadow: 0px 5px 0px #1F576D;
 	-ms-box-shadow: 0px 5px 0px #1F576D;
 }
+.img_concursos{
+	background: url("../image/body/direct_access/concursos.jpg");
+	background-repeat: no-repeat;
+	height: 119px;
+	width: 176px;
+	box-shadow: 0px 0px 10px #969696;
+	-webkit-box-shadow: 0px 0px 10px #969696;
+	-moz-box-shadow: 0px 0px 10px #969696;
+	-o-box-shadow: 0px 0px 10px #969696;
+	-ms-box-shadow: 0px 0px 10px #969696;
+}
+
 .ver_concursos{
 	background-color:#F55857;
 	box-shadow: 0px 5px 0px #AE414C;
@@ -644,6 +668,18 @@ input[type="checkbox"]{
 	-o-box-shadow: 0px 5px 0px #AE414C;
 	-ms-box-shadow: 0px 5px 0px #AE414C;
 }
+.img_proyectos{
+	background: url("../image/body/direct_access/proyectos.jpg");
+	background-repeat: no-repeat;
+	height: 119px;
+	width: 176px;
+	box-shadow: 0px 0px 10px #969696;
+	-webkit-box-shadow: 0px 0px 10px #969696;
+	-moz-box-shadow: 0px 0px 10px #969696;
+	-o-box-shadow: 0px 0px 10px #969696;
+	-ms-box-shadow: 0px 0px 10px #969696;
+}
+
 .ver_proyectos{
 	background-color:#9359AE;
 	box-shadow: 0px 5px 0px #733c91;
