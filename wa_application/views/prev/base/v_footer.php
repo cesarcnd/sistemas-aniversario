@@ -20,9 +20,9 @@
 				Ingeniería Industrial, Sistemas e Informatica
 			</div>
 			<div class="display-inline footer_left_logos">
-				<a href="https://www.facebook.com/AniversarioIngenieriaDeSistemasUnjfsc?fref=ts" target="_blank" class="sociales display-inline footer_facebook"></a>
-				<a href="https://twitter.com/" target="_blank" class="sociales display-inline footer_googleplus"></a>
-				<a href="https://www.youtube.com/" target="_blank" class="sociales display-inline footer_twitter"></a>
+				<a href="https://www.facebook.com/AniversarioIngenieriaDeSistemasUnjfsc?fref=ts" target="_blank" class="sprite sociales display-inline footer_facebook facebook"></a>
+				<a href="https://twitter.com/" target="_blank" class="sprite sociales display-inline footer_twitter twitter"></a>
+				<a href="https://www.youtube.com/" target="_blank" class="sprite sociales display-inline footer_youtube youtube"></a>
 			</div>
 		</div><!--
 		--><div class="display-inline footer_center">

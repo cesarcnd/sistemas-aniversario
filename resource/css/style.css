@@ -1120,7 +1120,7 @@ input[type="checkbox"]{
 	background-color: #333;
 	color:#fff;
 	
-}*/
+}
 
 .facebook2{
 	background-position: 6px -4px;
@@ -1140,4 +1140,42 @@ input[type="checkbox"]{
 	padding: 5px 6px 5px 6px;
 	background-color: #cc181e;
 	border-radius: 4px;
+}
+*/
+.footer_left_logos{
+	margin-left: 13px;
+}
+.sociales.footer_facebook{
+	width: 35px;
+	height: 35px;
+	background-color: #3A5893;
+	border-radius: 4px;
+	box-shadow: 0px 3px 0px #304B77;
+}
+.sociales.footer_twitter{
+	width: 35px;
+	height: 35px;
+	background-color: #4AC0E6;
+	border-radius: 4px;
+	box-shadow: 0px 3px 0px #3E9EB5;
+}
+.sociales.footer_youtube{
+	width: 35px;
+	height: 35px;
+	background-color: #9E0F09;
+	border-radius: 4px;
+	box-shadow: 0px 3px 0px #770A0A;
+}
+
+
+
+#footer .footer_left_logos .facebook{
+	background-position: 8px 0px;
+}
+#footer .footer_left_logos .twitter{
+	background-position: -21px -1px;
+}
+
+#footer .footer_left_logos .youtube{
+	background-position: -88px -2px;
 }
