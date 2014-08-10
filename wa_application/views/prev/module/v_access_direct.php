@@ -21,10 +21,12 @@
 					</div>
 					<div class="img_conferencias display-inline"></div>
 				</div>
+				<a href="<?php echo base_url()?>programacion/aniversario/todos" target="_self">
 				<div class="btns_more ver_conferencias">
 					<p>Conozca las conferencias</p>
 					<div class="img_triangle"></div>
 				</div>
+				</a>
 			</div>
 		
 		
@@ -41,10 +43,12 @@
 					</div>
 					<div class="img_talleres display-inline"></div>
 				</div>
+				<a href="<?php echo base_url()?>programacion/aniversario/todos" target="_self">
 				<div class="btns_more ver_talleres">
 					<p>Conozca los talleres</p>
 					<div class="img_triangle"></div>
 				</div>
+				</a>
 			</div>
 		
 		
@@ -61,10 +65,12 @@
 					</div>
 					<div class="img_concursos display-inline"></div>
 				</div>
+				<a href="<?php echo base_url()?>programacion/aniversario/todos" target="_self">
 				<div class="btns_more ver_concursos">
 					<p>Conozca los Concursos</p>
 					<div class="img_triangle"></div>
 				</div>
+				</a>
 			</div>
 		
 			<div class="link_proyectos collapsible">
@@ -80,10 +86,12 @@
 					</div>
 					<div class="img_proyectos display-inline"></div>
 				</div>
+				<a href="<?php echo base_url()?>programacion/aniversario/todos" target="_self">
 				<div class="btns_more ver_proyectos">
 					<p>Conozca los Proyectos</p>
 					<div class="img_triangle"></div>
 				</div>
+				</a>
 			</div>
 		
 	</div>

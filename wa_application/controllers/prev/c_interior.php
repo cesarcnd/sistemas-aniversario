@@ -25,7 +25,7 @@ class C_interior extends CI_Controller {
 	public function getNoticeDetail($param){
 		$this->DATA['title_page']='Noticias';
 		$this->DATA['title']='Noticias';
-		$this->DATA['interior']='construction';
+		$this->DATA['interior']='notice/notice_detalle';
 		$this->load->view('prev/v_interior_general',$this->DATA);
 	}
 	public function getGalleryPhotoAll(){
