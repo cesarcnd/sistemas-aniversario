@@ -60,7 +60,7 @@ class C_interior extends CI_Controller {
 	public function getProgramming(){
 		$this->DATA['title_page']='Programacion de aniversario';
 		$this->DATA['title']='Programacion de aniversario';
-		$this->DATA['interior']='construction';
+		$this->DATA['interior']='programming/programming';
 		$this->load->view('prev/v_interior_detail',$this->DATA);
 	}
 	public function getProject(){
