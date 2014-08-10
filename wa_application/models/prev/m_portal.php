@@ -72,4 +72,21 @@ class M_portal extends CI_Model{
 		$query =$this->db->get();
 		return $query->result_array(); 
 	}
+	function getListFile(){
+		$this->load->database();
+		$query=$this->db->select('wa.id_type_file, wa.type_file');
+		$this->db->from('wa_type_file wa');
+		$this->db->where('wa.active',1);
+		$query =$this->db->get();
+		return $query->result_array(); ; 
+	}
+	function getAllFile()
+	{
+		$this->load->database();
+		$query=$this->db->select('wa.id_file, wa.id_type_file, wa.title_file, wa.name_file, wa.url_download');
+		$this->db->from('wa_file wa');
+		$this->db->where('wa.active',1);
+		$query =$this->db->get();
+		return $query->result_array(); ; 
+	}
 }

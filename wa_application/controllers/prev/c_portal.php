@@ -8,6 +8,8 @@ class C_portal extends CI_Controller {
 		$this->DATA['fronts']=$this->resource_util->img_change_local($this->m_portal->getListFront(),1);
 		$this->DATA['photos']=$this->resource_util->img_change_local($this->m_portal->getGalleryImage(),0);
 		$this->DATA['videos']=$this->m_portal->getGalleryVideo();
+		$this->DATA['list_file']=$this->m_portal->getListFile();
+		$this->DATA['file']=$this->m_portal->getAllFile();
 		$this->load->view('prev/v_portal',$this->DATA);
 	}
 

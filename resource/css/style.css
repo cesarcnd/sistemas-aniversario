@@ -192,49 +192,39 @@
 }
 #blq_programming nav{
 	background: #ececec;
-	border: .08em solid #e0e0e0;
-	width: 30px;
-	height: 270px;
+	/*border: .08em solid #e0e0e0;*/
+	width: 100%;
+	height: 30px;
 	border-radius: 0 0 0 8px;
 	text-align: center;
 }
-#blq_programming nav div{
-	padding: 10px 5px 10px 10px;
-	border-bottom: 0.08em solid #e0e0e0;
-	width: 30px;
-	color: #333;
-
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-
-	-ms-writing-mode: tb-rl; /* vieja sintaxis IE */
-  	-webkit-writing-mode: vertical-rl;
-  	-moz-writing-mode: vertical-rl; /*¿a futuro?*/
-  	-ms-writing-mode: vertical-rl;
-  	writing-mode: vertical-rl;
+#blq_programming nav div:hover{
+	background: #ddd;
 }
-
+#blq_programming nav div.active{
+	background: #fff;
+	border-top: 0.2em solid #2a809c;
+}
 #blq_programming section.body-programming,
 #blq_informative section.body-informative{
 	background-color: #FFF;
-	width: 257px;
-	height: 270px;
-	border-radius: 0 0 5px 0;
+	width: 289px;
+	height: 241px;
+	border-radius: 8px;
+	position: relative;
 	overflow: hidden;
+	overflow-y: auto;
 }
 #blq_programming section.body-programming div.item-programming,
 #blq_informative section.body-informative div.item-informative{
 	background-color: #fff;
-	width: 257px;
+	width: 274px;
 	height: 95px;
 	border-bottom: 0.08em solid #e0e0e0;
 }
 #blq_programming div.item-programming .image,
 #blq_informative div.item-informative .image{
-	width: 70px;
+	width: 89px;
 	height: 95px;
 	text-align: center;
 }
@@ -254,7 +244,7 @@
 
 #blq_programming div.item-programming .content,
 #blq_informative div.item-informative .content{
-	width: 177px;
+	width: 185px;
 	height: 95px;
 	padding: 5px 0;
 	
@@ -285,17 +275,19 @@
 }
 #blq_informative nav{
 	background: #ececec;
-	border: .08em solid #e0e0e0;
-	width: 99.2%;
+	/*border: .08em solid #e0e0e0;*/
+	width: 100%;
 	height: 30px;
 	text-align: center;
 }
-#blq_informative nav div{
+#blq_informative nav div,
+#blq_programming nav div{
 	border-left: 0.08em solid #e0e0e0;
 	width: 42.5%;
 	color: #333;
 	height: 30px;
 	line-height: 30px;
+	position: relative;
 
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -303,23 +295,61 @@
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
 }
-#blq_informative nav div.menu{
+#blq_informative nav div:hover{
+	background: #ddd;
+}
+#blq_informative nav div.active{
+	background: #fff;
+	border-top: 0.2em solid #2a809c;
+}
+#blq_informative nav div.menu,
+#blq_programming nav div.menu{
 	width: 15%;
 }
 
 #blq_informative section.body-informative{
 	width: 100%;
 	height: 240px;
-	border-radius: 0 0 8px 0;
+	border-radius: 0 0 8px 8px;
+	position: relative;
 }
-#blq_informative section.body-informative div.item-informative{
+#blq_informative section.body-informative div.list-item.active,
+#blq_programming section.body-programming div.list-item.active{
+	position: absolute;
+	top: 0;
 	width: 100%;
+	height: 240px;
+	background: #fff;
 }
-#blq_informative div.item-informative .content{
-	width: 200px;
+#blq_informative section.body-informative div.list-item ul li,
+#blq_programming section.body-programming div.list-item ul li{
+	height: 30px;
+	line-height: 30px;
+	padding-left: 15px;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+}
+#blq_informative section.body-informative div.list-item ul li:hover,
+#blq_programming section.body-programming div.list-item ul li:hover{
+	background: #eee;	
+}
+#blq_informative section.body-informative div.list-item ul li a,
+#blq_programming section.body-programming div.list-item ul li a{
+	padding-left: 15px;
 }
 #blq_informative div.item-informative .image{
 	width: 89px;
+}
+#blq_informative div.item-informative .sprite.img-informative{
+	margin: 6% auto;
+	width: 60px;
+	height: 80px;
+}
+#blq_informative div.item-informative .sprite.img-informative.doc{
+	background-position: -155px 9px;
+}
+#blq_informative div.item-informative .sprite.img-informative.pdf{
+	background-position: -210px 9px;
 }
 /*END AREA INFORMATIVE*/
 /*STAR INSCRIPTION*/
@@ -342,6 +372,14 @@
 	-o-border-radius: 8px;
 	-ms-border-radius: 8px;
 }
+#blq_informative div.item-informative .content p.title{
+	margin-bottom: 15px;
+}
+#blq_informative div.item-informative .content p,
+#blq_informative div.item-informative .content span{
+	font-size: .87em;
+}
+
 
 #cabecera{
 	background-color: #ECECEC; 
