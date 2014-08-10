@@ -10,11 +10,11 @@
         <div class="row relleno-arriba-uno">
             <div class="col-md-offset-1 col-md-10 margen-arriba margen-izq" style="text-align: center;">
                 <a class="btn btn-no-fondo btn-mas titulofooter btn-cro" id="todo">Todo</a>
-                <a class="btn btn-no-fondo btn-mas titulofooter" id="magistral">Lunes</a>
-                <a class="btn btn-no-fondo btn-mas titulofooter" id="especializada">Martes</a>
-                <a class="btn btn-no-fondo btn-mas titulofooter" id="taller">Miercoles</a>
-                <a class="btn btn-no-fondo btn-mas titulofooter" id="taller">Jueves</a>
-                <a class="btn btn-no-fondo btn-mas titulofooter" id="taller">Viernes</a>
+                <a class="btn btn-no-fondo btn-mas titulofooter" id="lunes">Lunes</a>
+                <a class="btn btn-no-fondo btn-mas titulofooter" id="martes">Martes</a>
+                <a class="btn btn-no-fondo btn-mas titulofooter" id="miercoles">Miércoles</a>
+                <a class="btn btn-no-fondo btn-mas titulofooter" id="jueves">Jueves</a>
+                <a class="btn btn-no-fondo btn-mas titulofooter" id="viernes">Viernes</a>
                 <a href="" class="btn btn-no-fondo btn-mas titulofooter" id="descarga" download="">Descargar cronograma</a>
             </div>
         </div>
