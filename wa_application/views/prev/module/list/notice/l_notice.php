@@ -1,70 +1,35 @@
-<section class="item_notice sup_notice">
+<?php $i=1;foreach ($noticias as $noticia) {?>
+<section class="item_notice <?php echo ($i==1)?'sup_notice':'sub_notice';?>">
 	<section class="display-inline img_notice">
 		<div class="day_notice">
-			<p>04</p>
-			<p>Jul</p>
+			<p><?php echo $noticia['day_short'] ?></p>
+			<p><?php echo $noticia['month_short'] ?></p>
 		</div>
 		<div class="img-border">
 			<div class="web_site_opacity">
 				<div class="share_social">
-					<a href="https://www.facebook.com/AniversarioIngenieriaDeSistemasUnjfsc?fref=ts" target="_blank" class="sprite social_network display-inline facebook"></a>
+					<a href="http://www.facebook.com/sharer.php?s=100&p[url]=<?php echo base_url()?>informacion/<?php echo $noticia['url_notice']?>/detalle&p[title]=<?php echo $noticia['title_notice']?>&&p[images][0]=<?php echo base_url().img_local($noticia['type_image'],400,$noticia['image'])?>,''sharer','toolbar=0,status=0,width=626,height=436'" target="_blank" class="sprite social_network display-inline facebook"></a>
 					<a href="https://twitter.com/" target="_blank" class="sprite social_network display-inline twitter"></a>
 				</div>
 			</div>
 			<a href="javascript:;" >
-				<img src="<?php echo base_url()?>resource/image/body/images/image-400/teqienhos.jpg"/> 
+				<img src="<?php echo base_url().img_local($noticia['type_image'],400,$noticia['image'])?>"/> 
 			</a>
 		</div>
-		<a href="javascript:;" class="more_notice">+</a>
+		<a href="<?php echo base_url()?>informacion/<?php echo $noticia['url_notice']?>/detalle" target="_self" class="more_notice">+</a>
 	</section><!--
 	--><section class="display-inline content_notice">
 		<header class="header_notice">
-			<h3>Inaguraci&oacute;n del campo de Ingenier&iacute;a</h3>
+			<h3><?php echo $noticia['title_notice'] ?></h3>
 		</header>
-		<div class="time_notice">09 de Julio de 2014 | <a href="javascript:;" class="link_notice">Teque&ntilde;ada</a></div>
+		<div class="time_notice"><?php echo $noticia['date_notice_large'] ?>| <a href="javascript:;" class="link_notice"><?php echo $noticia['name_section_notice'] ?></a></div>
 		<article class="abstract_notice">
-			La inaguración se dio, con la presencia de nuestras autoridades de la Facultad de 
-			Ingenieria Industrial, Sistemas e Informática La inaguración se dio, con la presencia de 
-			nuestras autoridades de la Facultad...
+			<?php echo $noticia['content_notice'] ?>
 		</article>
 		<div class="btns_notice">
-			<a href="javascript:;" class="btn_all display-inline">Ver todo</a>
-			<a href="javascript:;" class="btn_read_more display-inline">Leer m&aacute;s</a>
+			<a href="<?php echo base_url()?>informacion/noticias/todos" target="_self" class="btn_all display-inline">Ver todo</a>
+			<a href="<?php echo base_url()?>informacion/<?php echo $noticia['url_notice']?>/detalle" target="_self" class="btn_read_more display-inline">Leer m&aacute;s</a>
 		</div>
 	</section>
-</section>
-<section class="item_notice sub_notice">
-	<section class="display-inline content_notice">
-		<header class="header_notice">
-			<h3>Gran rifa, en deportes sistemas</h3>
-		</header>
-		<div class="time_notice">04 de Julio de 2014 | <a href="javascript:;" class="link_notice">Sistemas deportes</a></div>
-		<article class="abstract_notice">
-			La inaguración se dio, con la presencia de nuestras autoridades de la Facultad de 
-			Ingenieria Industrial, Sistemas e Informática. La inaguración se dio, con la presencia de 
-			nuestras autoridades de la Facultad...
-		</article>
-		<div class="btns_notice">
-			<a href="javascript:;" class="btn_read_more display-inline">Leer m&aacute;s</a>
-			<a href="javascript:;" class="btn_all display-inline">Ver todo</a>
-		</div>
-	</section><!--
-	--><section class="display-inline img_notice">
-		<div class="day_notice">
-			<p>01</p>
-			<p>Jul</p>
-		</div>
-		<div class="img-border">
-			<div class="web_site_opacity">
-				<div class="share_social">
-					<a href="https://www.facebook.com/AniversarioIngenieriaDeSistemasUnjfsc?fref=ts" target="_blank" class="sprite social_network display-inline facebook"></a>
-					<a href="https://twitter.com/" target="_blank" class="sprite social_network display-inline twitter"></a>
-				</div>
-			</div>
-			<a href="javascript:;">
-				<img src="<?php echo base_url()?>resource/image/body/images/image-400/sorteo.jpg"/> 
-			</a>
-		</div>
-		<a href="javascript:;" class="more_notice">+</a>
-	</section>
-</section>
+</section>	
+<?php $i++;} ?>

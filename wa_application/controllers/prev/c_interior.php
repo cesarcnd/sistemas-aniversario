@@ -10,7 +10,7 @@ class C_interior extends CI_Controller {
 		$this->DATA['interior']='not_found';
 		$this->load->view('prev/v_interior_general',$this->DATA);
 	}
-	public function getNoticeAll($param){
+	public function getNoticeAll(){
 		$this->DATA['title_page']='Noticias';
 		$this->DATA['title']='Noticias';
 		$this->DATA['interior']='construction';

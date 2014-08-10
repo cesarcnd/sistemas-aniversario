@@ -11,10 +11,10 @@
 				<?php echo $detalle['content_notice'] ?>
 			</div>
 			<div class="display-inline noticia_botones">
-				<a href="<?php echo base_url()?>noticia/todos" class="noticias_general">
+				<a href="<?php echo base_url()?>informacion/noticias/todos" class="noticias_general">
 					Todas las noticias
 				</a>
-				<a href="<?php echo base_url()?>noticia/<?php echo $detalle['url_section']?>/todos"  class="noticias_seccion">
+				<a href="<?php echo base_url()?>informacion/noticias/<?php echo $detalle['url_section']?>/todos"  class="noticias_seccion">
 					<?php echo $detalle['section'] ?>
 				</a>
 			</div>	

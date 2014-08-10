@@ -90,9 +90,9 @@
 /*notice_Detalle*/
 
 #noticia_detalle{
+	border: 3px solid #E0E0E0;
 	height: 773px;
-	width: 637px;
-	border: 1px solid #E0E0E0;
+	overflow: auto;
 	position: relative;
 }
 

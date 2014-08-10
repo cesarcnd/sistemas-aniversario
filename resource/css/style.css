@@ -417,6 +417,9 @@
 	border-top: 1px solid #eaeaea;
 	border-bottom: 1px solid #848484;
 }
+#notice .item_notice.sub_notice .img_notice{
+	float: right;
+}
 #notice .item_notice.sub_notice{
 	border-top: 1px solid #eaeaea;
 }

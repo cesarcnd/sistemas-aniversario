@@ -7,8 +7,8 @@ $route['404_override'] = "welcome/not_found";
 $route['pre-inscribirse/module'] = "prev/c_portal/loadPreInscription";
 $route['pre-inscribirse/eventos'] = "prev/c_portal/setInsertAttendance";
 
-$route['informacion/noticias/todos'] = "prev/c_interior/getNoticeAll/$1";
-$route['informacion/noticia/([a-zA-Z0-9_-]+)/todos'] = "prev/c_interior/getNoticeSection/$1";
+$route['informacion/noticias/todos'] = "prev/c_interior/getNoticeAll";
+$route['informacion/noticias/([a-zA-Z0-9_-]+)/todos'] = "prev/c_interior/getNoticeSection/$1";
 $route['informacion/([a-zA-Z0-9_-]+)/detalle'] = "prev/c_interior/getNoticeDetail/$1";
 
 $route['galeria/fotos/todos'] = "prev/c_interior/getGalleryPhotoAll";

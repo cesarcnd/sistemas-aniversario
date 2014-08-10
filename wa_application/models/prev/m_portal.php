@@ -85,6 +85,24 @@ class M_portal extends CI_Model{
 		$this->db->from('wa_file wa');
 		$this->db->where('wa.active',1);
 		$query =$this->db->get();
-		return $query->result_array(); ; 
+		return $query->result_array();
+	}
+
+	function getNotice(){
+		$this->load->database();
+		$query=$this->db->select('wn.title_notice , wn.content_notice , wn.url_notice, wi.image, wi.type_image, wsn.name_section_notice, wsn.url_section_notice');
+		$this->db->select('DATE_FORMAT(wn.date_notice,"%d de %M de %Y") as date_notice_large',false);
+		$this->db->select('DATE_FORMAT(wn.date_notice,"%d") as day_short',false);
+		$this->db->select('DATE_FORMAT(wn.date_notice,"%b") as month_short',false);
+		$this->db->from('wa_notice wn');
+		$this->db->join('wa_image_notice win','win.id_notice=wn.id_notice');
+		$this->db->join('wa_image wi',' win.id_image = wi.id_image');
+		$this->db->join('wa_section_notice wsn','wsn.id_section_notice = wn.id_section_notice');
+		$this->db->order_by('wn.dateregister','desc');
+		$this->db->where('wn.front','0');
+		$this->db->limit(2,0);
+		$this->db->where('win.active','1');
+		$query=$this->db->get();
+		return $query->result_array();
 	}
 }
