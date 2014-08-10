@@ -60,14 +60,12 @@ class M_portal extends CI_Model{
 		$query =$this->db->get();
 		return $query->result_array(); 
 	}
-	function getGalleryVideo(){
+	function getVideo(){
 		$this->load->database();
-		$query=$this->db->select('gv.name_gallery_video as title_gallery_video, gv.url_gallery_video as url_gallery_video, vi.image_video as image');
+		$query=$this->db->select('vi.title_video as title_video, vi.url_video as url_video, vi.image_video as image');
 		$this->db->from('wa_video vi');
-		$this->db->join('wa_gallery_video gv','gv.id_gallery_video = vi.id_gallery_video');
-		$this->db->where('gv.active',1);
-		$this->db->where('vi.front',1);
-		$this->db->order_by('gv.dateregister','desc');
+		$this->db->where('vi.active',1);
+		$this->db->order_by('vi.dateregister','desc');
 		$this->db->limit(4,0);
 		$query =$this->db->get();
 		return $query->result_array(); 

@@ -12,4 +12,14 @@ class M_interior extends CI_Model{
 		$query =$this->db->get();
 		return $query->result_array(); 
 	}
+
+	function getVideoDetail($param){
+		$this->load->database();
+		$query=$this->db->select('vi.title_video as title_video, vi.url_video as url_video, vi.image_video as image,vi.id_video_youtube as youtube');
+		$this->db->from('wa_video vi');
+		$this->db->where('vi.active',1);
+		$this->db->where('vi.url_video',$param);
+		$query =$this->db->get();
+		return $query->result_array(); 
+	}
 }

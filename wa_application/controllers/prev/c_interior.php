@@ -49,9 +49,11 @@ class C_interior extends CI_Controller {
 		$this->load->view('prev/v_interior_general',$this->DATA);
 	}
 	public function getGalleryVideo($param){
+		$this->load->model('prev/m_interior');
 		$this->DATA['title_page']='Galeria de Videos';
 		$this->DATA['title']='Galeria de Videos';
-		$this->DATA['interior']='construction';
+		$this->DATA['interior']='video/i_gallery_video';
+		$this->DATA['videos']=$this->m_interior->getVideoDetail($param);
 		$this->load->view('prev/v_interior_general',$this->DATA);
 	}
 
@@ -59,7 +61,7 @@ class C_interior extends CI_Controller {
 		$this->DATA['title_page']='Programacion de aniversario';
 		$this->DATA['title']='Programacion de aniversario';
 		$this->DATA['interior']='construction';
-		$this->load->view('prev/v_interior_general',$this->DATA);
+		$this->load->view('prev/v_interior_detail',$this->DATA);
 	}
 	public function getProject(){
 		$this->DATA['title_page']='Feria de Proyectos';
