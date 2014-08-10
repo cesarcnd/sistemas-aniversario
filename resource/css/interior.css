@@ -124,18 +124,14 @@
 	position: absolute;
 	right: 29px;
 }
-#noticia_detalle .noticia_descripcion .noticia_botones .noticias_general{
+#noticia_detalle .noticia_descripcion .noticia_botones .noticias_general,#noticia_detalle .noticia_descripcion .noticia_botones .noticias_seccion{
 	background-color: #EDEDED;
 	border: 1px solid #C6C4C4;
 	margin: 0px 14px;
 	padding: 6px 8px;
 	font-size: 15px;
 }
-#noticia_detalle .noticia_descripcion .noticia_botones .noticias_seccion{
-	
-	background-color: #EDEDED;
-	border: 1px solid #C6C4C4;
-	margin: 0px 0px;
-	padding: 6px 8px;
-	font-size: 15px;
+
+#noticia_detalle .noticia_descripcion .noticia_botones .noticias_general:hover,#noticia_detalle .noticia_descripcion .noticia_botones .noticias_seccion:hover{
+	background-color: #CFCFCF
 }

@@ -23,6 +23,8 @@ class C_interior extends CI_Controller {
 		$this->load->view('prev/v_interior_general',$this->DATA);
 	}
 	public function getNoticeDetail($param){
+		$this->getUtil();
+		$this->DATA['noticia_detalle']=$this->m_interior->getNoticeDetail($param);
 		$this->DATA['title_page']='Noticias';
 		$this->DATA['title']='Noticias';
 		$this->DATA['interior']='notice/notice_detalle';

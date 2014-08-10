@@ -54,4 +54,18 @@ class M_interior extends CI_Model{
 		$query =$this->db->get();
 		return $query->result_array(); 
 	}
+
+	function getNoticeDetail($param){
+		$this->load->database();
+		$query=$this->db->select('no.title_notice as title_notice,im.image as image,im.type_image,no.content_notice,sn.name_section_notice as section, sn.url_section_notice as url_section');
+		$this->db->select('DATE_FORMAT(no.date_notice,"%W, %d de %M de %Y") as date_notice',false);
+		$this->db->from('wa_image_notice tin');
+		$this->db->join('wa_notice no','tin.id_notice = no.id_notice');
+		$this->db->join('wa_image im','tin.id_image = im.id_image');
+		$this->db->join('wa_section_notice sn','sn.id_section_notice = no.id_section_notice');
+		$this->db->where('tin.active',1);
+		$this->db->where('no.url_notice',$param);
+		$query =$this->db->get();
+		return $query->result_array(); 
+	}
 }

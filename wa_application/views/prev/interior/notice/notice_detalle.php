@@ -1,21 +1,23 @@
 <div id="noticia_detalle">
+		<?php foreach($noticia_detalle as $detalle) {?>
 		<div class="noticia_imagen">
-			<img src="<?php echo base_url();?>resource/image/body/images/notice/front/IMG_5540.JPG">
+			<img src="<?php echo base_url().img_local($detalle['type_image'],600,$detalle['image']);?>">
 			<div class="noticia_titulo">
-				<h3> Inaguraci&oacute;n de la canchita de fulbito de Ingenier&iacute;a</h3>
+				<h3> <?php echo $detalle['title_notice'] ?></h3>
 			</div>
 		</div> 
 		<div class="noticia_descripcion">
 			<div class="noticia_comentario">
-				Durante las primeras horas de la tarde, se llevó a cabo la fotografía de clausura del campeonato de Taekwondo Bolivia Open 2014, donde estuvieron presentes todas las autoridades del campeonato, los réferis y presidentes de la Federación.
+				<?php echo $detalle['content_notice'] ?>
 			</div>
 			<div class="display-inline noticia_botones">
-				<a href="" class="noticias_general">
+				<a href="<?php echo base_url()?>noticia/todos" class="noticias_general">
 					Todas las noticias
 				</a>
-				<a href=""  class="noticias_seccion">
-					Noticias de Ingenier&iacute;a
+				<a href="<?php echo base_url()?>noticia/<?php echo $detalle['url_section']?>/todos"  class="noticias_seccion">
+					<?php echo $detalle['section'] ?>
 				</a>
 			</div>	
 		</div>
+		<?php } ?>
 </div>
