@@ -110,8 +110,6 @@ body{
     }
 
 /* Propiedades */
-
-
 .relleno-arriba-uno {
   padding-top: 4em;
 }
@@ -124,16 +122,13 @@ body{
   margin: 0.2em auto;
   font-family: "Montserrat";
   border: 2px solid #fff;
-
   display: inline-block;
-padding: 6px 12px;
-
-cursor: pointer;
-margin: 3px;
--webkit-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-
+  padding: 6px 12px;
+  cursor: pointer;
+  margin: 3px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 
 }
 .btn-no-fondo {
@@ -149,10 +144,6 @@ margin: 3px;
   width: 180px !important;
   font-size: 18px !important;
 }
-
-
-
-      
 
         .timeline-centered .timeline-entry.begin {
             margin-bottom: 0;
@@ -242,7 +233,7 @@ margin: 3px;
                 float: left;
             }
 
-               
+                .timeline-entry               
 
                 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-warning {
                     background-color: #fad839;
@@ -253,6 +244,11 @@ margin: 3px;
                     background-color: #cc2424;
                     color: #fff;
                 }
+
+                /*.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-danger .entypo-feather{
+                    
+                    font-size: 4px;
+                }*/
 
             .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
                 position: relative;
