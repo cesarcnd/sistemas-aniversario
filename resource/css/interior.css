@@ -7,6 +7,7 @@
 	-o-box-sizing:border-box;
 	-ms-box-sizing:border-box;
 	width: 667px;
+	border-left: 1px solid #E0E0E0;
 }
 .b-body .right-body{
 	background-color: #E0E0E0;
@@ -22,4 +23,67 @@
 .not_found img{
 	margin-top: 10%;
 	width: 100%;
+}
+.comments{
+	margin-top: 20px;
+	text-align: center;
+}
+#gallery_foto_detail .item img,#gallery_foto .item img,#video_all .item img{
+	position: relative;
+	top: -40px;
+	width: 100%;
+}
+#gallery_foto_detail .item,#gallery_foto .item,#video_all .item{
+	height: 240px;
+	margin:10px 10px;
+	width: 290px;
+	overflow: hidden;
+	position: relative;
+}
+#video_all .item{
+	height: 175px;
+}
+#video_all .circle {
+	top: 16%;
+}
+#video_all .circle .sistemas_ico_video{
+	left: 6px;
+	top: 17px;
+}
+#gallery_foto_detail .item figcaption,#gallery_foto .item figcaption,#video_all .item figcaption{
+	background: rgba(0,0,0,0.8);
+	bottom: 0px;
+	color: #fff;
+	padding: 10px 10px;
+	position: absolute;
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+.pp_pic_holder .twitter-share-button{
+	margin:0;
+}
+.pp_pic_holder .twitter:hover,.pp_pic_holder .facebook:hover{
+	background-color: #fff;
+}
+.circle{
+	right: 36%;
+}
+.btns_prev_g{
+	height: 35px;
+	position: relative;
+}
+.btns_prev_g .btn_prev_g{
+	background-color: #D5241C;
+	border-radius: 5px;
+	box-shadow: 0px 4px 0px #9E0F09;
+	color: #fff;
+	margin-top: -10px;
+	margin-right: 10px;
+	padding: 7px 18px;
+	position: absolute;
+	right: 0;
 }

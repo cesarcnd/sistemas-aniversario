@@ -14,7 +14,7 @@ $route['informacion/([a-zA-Z0-9_-]+)/detalle'] = "prev/c_interior/getNoticeDetai
 $route['galeria/fotos/todos'] = "prev/c_interior/getGalleryPhotoAll";
 $route['galeria/fotos/([a-zA-Z0-9_-]+)/detalle'] = "prev/c_interior/getGalleryPhoto/$1";
 $route['galeria/videos/todos'] = "prev/c_interior/getGalleryVideoAll";
-$route['galeria/videos/([a-zA-Z0-9_-]+)/detalle'] = "prev/c_interior/getGalleryVideo/$1";
+$route['galeria/video/([a-zA-Z0-9_-]+)/detalle'] = "prev/c_interior/getGalleryVideo/$1";
 
 $route['programacion/aniversario/todos']='prev/c_interior/getProgramming';
 $route['feria-proyectos/aniversario/todos']='prev/c_interior/getProject';

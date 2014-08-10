@@ -5,7 +5,7 @@
 	</div>
     <div class="camera_wrap camera_white_skin spacing_multimedia" id="video_camera">
         <?php foreach ($videos as $video){?>
-        <div data-thumb="<?php echo $video['image']?>" data-src="<?php echo $video['image']?>" data-link="<?php echo base_url().'galeria/videos/'.$video['url_video'].'/detalle'?>">
+        <div data-thumb="<?php echo $video['image']?>" data-src="<?php echo $video['image']?>" data-link="<?php echo base_url().'galeria/video/'.$video['url_video'].'/detalle'?>">
             <div class="camera_caption fadeIn">
                 <?php  echo $video['title_video']?>
             </div>

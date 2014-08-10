@@ -30,22 +30,26 @@ class C_interior extends CI_Controller {
 	}
 	public function getGalleryPhotoAll(){
 		$this->getUtil();
-		$this->DATA['galeria_fotos']=$this->m_interior->getGalleryPhotoAll();
+		$this->DATA['gallery_fotos']=$this->m_interior->getGalleryPhotoAll();
 		$this->DATA['title_page']='Galeria de Fotos';
 		$this->DATA['title']='Galeria de Fotos';
 		$this->DATA['interior']='foto/i_gallery_photo_all';
 		$this->load->view('prev/v_interior_general',$this->DATA);
 	}
 	public function getGalleryPhoto($param){
-		$this->DATA['title_page']='Galeria de Videos';
-		$this->DATA['title']='Galeria de Videos';
-		$this->DATA['interior']='construction';
+		$this->getUtil();
+		$this->DATA['title_page']='Galeria de Fotos';
+		$this->DATA['title']='Galeria de Fotos';
+		$this->DATA['interior']='foto/i_gallery_photo';
+		$this->DATA['fotos']=$this->m_interior->getGalleryFotoDetail($param);
 		$this->load->view('prev/v_interior_general',$this->DATA);
 	}
 	public function getGalleryVideoAll(){
+		$this->getUtil();
 		$this->DATA['title_page']='Galeria de Videos';
 		$this->DATA['title']='Galeria de Videos';
-		$this->DATA['interior']='construction';
+		$this->DATA['interior']='video/i_gallery_video_all';
+		$this->DATA['videos']=$this->m_interior->getVideoAll();
 		$this->load->view('prev/v_interior_general',$this->DATA);
 	}
 	public function getGalleryVideo($param){

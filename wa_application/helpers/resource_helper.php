@@ -18,3 +18,18 @@
     	{ $title_album=trim($title);}
     	return $title_album;
 	}
+
+    function img_local($type_image,$size,$name_image){
+            switch ($type_image) {
+                case 'L':
+                    switch ($size) {
+                        case 1024:$resource='resource/image/body/images/image-1024/'.$name_image;break;
+                        case 600:$resource='resource/image/body/images/image-600/'.$name_image;break;
+                        case 400:$resource='resource/image/body/images/image-400/'.$name_image;break;
+                    }
+                    break;
+                case 'I':$resource=$name_image;break;
+            } 
+            return $resource;   
+        
+    }
