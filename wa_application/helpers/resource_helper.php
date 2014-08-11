@@ -1,5 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-	function titleShort($title,$limitLengthTitle){
+	function stringShort($title,$limitLengthTitle){
 		$length_title=strlen($title);
     	if($length_title>$limitLengthTitle)
     	{	$title_new=array();

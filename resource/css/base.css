@@ -88,3 +88,9 @@ img,iframe{border: none;}
 .sistemas_ico_clock:before{content: "\e60f";}
 .sistemas_ico_download:before{content: "\e613";}
 .sistemas_ico_view:before{content:"\e61d";}
+
+.no_public{
+	color: rgb(192, 0, 0);
+	text-align: center;
+	padding: 30px 0px;
+}

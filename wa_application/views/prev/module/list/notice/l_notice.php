@@ -24,7 +24,7 @@
 		</header>
 		<div class="time_notice"><?php echo $noticia['date_notice_large'] ?>| <a href="javascript:;" class="link_notice"><?php echo $noticia['name_section_notice'] ?></a></div>
 		<article class="abstract_notice">
-			<?php echo $noticia['content_notice'] ?>
+			<?php echo stringShort($noticia['content_notice'],230) ?>
 		</article>
 		<div class="btns_notice">
 			<a href="<?php echo base_url()?>informacion/noticias/todos" target="_self" class="btn_all display-inline">Ver todo</a>

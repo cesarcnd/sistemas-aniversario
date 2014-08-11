@@ -1,11 +1,34 @@
 <script>
 	$(function(){
 	    $('#direct_access').collapsible('accordion-open');
+	    $('#direct_access .link_conferencias').click(function(){
+	    	$('#direct_access > div').removeClass('active');
+	    	$(this).addClass('active');
+	    	$('#direct_access .collapsible  [class$="_triangle"]').addClass('display-none');
+	    	$('.conferencias_triangle',this).removeClass('display-none');
+	    });
+	    $('#direct_access .link_talleres').click(function(){
+	    	$('#direct_access > div').removeClass('active');
+	    	$(this).addClass('active');
+	    	$('#direct_access .collapsible [class$="_triangle"]').addClass('display-none');
+	    	$('.talleres_triangle',this).removeClass('display-none');
+	    });
+	    $('#direct_access .link_concursos').click(function(){
+	    	$('#direct_access > div').removeClass('active');
+	    	$(this).addClass('active');
+	    	$('#direct_access .collapsible [class$="_triangle"]').addClass('display-none');
+	    	$('.concursos_triangle',this).removeClass('display-none');
+	    });
+	    $('#direct_access .link_proyectos').click(function(){
+	    	$('#direct_access > div').removeClass('active');
+	    	$(this).addClass('active');
+	    	$('#direct_access .collapsible [class$="_triangle"]').addClass('display-none');
+	    	$('.proyectos_triangle',this).removeClass('display-none');
+	    });
 	});
 </script>
 	<div id="direct_access" >
-		
-			<div class="link_conferencias collapsible" id="content_conferencias">
+			<div class="link_conferencias collapsible active" id="content_conferencias">
 				<div class="sombra_conferencias" >
 					<h2>CONFERENCIAS</h2>
 					<div class="sprite ico_conferencias display-inline"></div>
@@ -31,8 +54,11 @@
 		
 		
 			<div class="link_talleres collapsible">
-				<h2>TALLERES</h2>
-				<div class="sprite ico_talleres display-inline"></div>
+				<div class="sombra_talleres" >
+					<h2>TALLERES</h2>
+					<div class="sprite ico_talleres display-inline"></div>
+					<div class="talleres_triangle display-none"></div>
+				</div>
 			</div>
 			<div class="content_talleres  display-none">
 				<div class="first_block">
@@ -53,8 +79,11 @@
 		
 		
 			<div class="link_concursos collapsible">
-				<h2>CONCURSOS</h2>
-				<div class="sprite ico_concursos display-inline"></div>
+				<div class="sombra_concursos" >
+					<h2>CONCURSOS</h2>
+					<div class="sprite ico_concursos display-inline"></div>
+					<div class="concursos_triangle display-none"></div>
+				</div>
 			</div>
 			<div class="content_concursos display-none">
 				<div class="first_block">
@@ -74,8 +103,11 @@
 			</div>
 		
 			<div class="link_proyectos collapsible">
-				<h2>PROYECTOS</h2>
-				<div class="sprite ico_proyectos display-inline"></div>
+				<div class="sombra_proyectos" >
+					<h2>PROYECTOS</h2>
+					<div class="sprite ico_proyectos display-inline"></div>
+					<div class="proyectos_triangle display-none"></div>
+				</div>
 			</div>
 			<div class="content_proyectos display-none">
 				<div class="first_block">
