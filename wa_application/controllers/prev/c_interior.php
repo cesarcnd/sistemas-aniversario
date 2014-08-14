@@ -11,15 +11,19 @@ class C_interior extends CI_Controller {
 		$this->load->view('prev/v_interior_general',$this->DATA);
 	}
 	public function getNoticeAll(){
+		$this->getUtil();
+		$this->DATA['noticias']=$this->m_interior->getNoticeAll();
 		$this->DATA['title_page']='Noticias';
 		$this->DATA['title']='Noticias';
-		$this->DATA['interior']='construction';
+		$this->DATA['interior']='notice/notice_general';
 		$this->load->view('prev/v_interior_general',$this->DATA);
 	}
 	public function getNoticeSection($param){
+		$this->getUtil();
+		$this->DATA['urls']=$this->m_interior->getNoticeSection($param);
 		$this->DATA['title_page']='Noticias';
 		$this->DATA['title']='Noticias';
-		$this->DATA['interior']='construction';
+		$this->DATA['interior']='notice/notice_seccion';
 		$this->load->view('prev/v_interior_general',$this->DATA);
 	}
 	public function getNoticeDetail($param){
