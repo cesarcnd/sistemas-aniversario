@@ -72,19 +72,19 @@ class C_interior extends CI_Controller {
 	public function getProject(){
 		$this->DATA['title_page']='Feria de Proyectos';
 		$this->DATA['title']='Feria de Proyectos';
-		$this->DATA['interior']='construction';
+		$this->DATA['interior']='project/i_project';
 		$this->load->view('prev/v_interior_general',$this->DATA);
 	}
 	public function getConference(){
-		$this->DATA['title_page']='Feria de Proyectos';
-		$this->DATA['title']='Feria de Proyectos';
-		$this->DATA['interior']='construction';
+		$this->DATA['title_page']='Conferencia';
+		$this->DATA['title']='Conferencia';
+		$this->DATA['interior']='event_academy/i_conference';
 		$this->load->view('prev/v_interior_general',$this->DATA);
 	}
 	public function getTaller(){
 		$this->DATA['title_page']='Talleres';
 		$this->DATA['title']='Talleres';
-		$this->DATA['interior']='construction';
+		$this->DATA['interior']='event_academy/i_talleres';
 		$this->load->view('prev/v_interior_general',$this->DATA);
 	}
 	public function getConcurso(){

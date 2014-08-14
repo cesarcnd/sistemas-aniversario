@@ -135,3 +135,95 @@
 #noticia_detalle .noticia_descripcion .noticia_botones .noticias_general:hover,#noticia_detalle .noticia_descripcion .noticia_botones .noticias_seccion:hover{
 	background-color: #CFCFCF
 }
+#conference.event_academy .item_event_academy{
+	border: 1px solid #94AED1;
+}
+#talleres.event_academy .item_event_academy{
+	border: 1px solid #ccc;
+}
+#talleres.event_academy .item_event_academy:hover{
+	border:1px solid #C86631;
+}
+.event_academy .item_event_academy{
+	background-color: #F8F8F8;
+	border-radius: 8px;
+	box-sizing:border-box;
+	cursor: pointer;
+	margin: 3px 6px;
+	width: 48%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+}
+#talleres.event_academy .item_event_academy:hover{
+	background:#FBE5D6;
+}
+#conference.event_academy .item_event_academy:hover{
+	background: #DEEBF7;
+}
+#conference.event_academy .item_event_academy .super,#conference.event_academy .item_event_academy .medium{
+	border-bottom: 1px solid #94AED1;
+}
+#talleres.event_academy .item_event_academy:hover .super,#talleres.event_academy .item_event_academy:hover .medium{
+	border-bottom: 1px solid #C86631;
+}
+#talleres.event_academy .item_event_academy .super,#talleres.event_academy .item_event_academy .medium{
+	border-bottom: 1px solid #ccc;
+}
+.event_academy .item_event_academy .super{
+	font-size: 10px;
+	padding: 5px 5px;
+	text-align: center;
+}
+.event_academy .item_event_academy .sub{
+	color: #555;
+	font-size: 14px;
+	font-weight: bold;
+}
+.event_academy .item_event_academy .sub div{
+	box-sizing:border-box;
+	width: 50%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	padding: 5px 10px;
+}
+.event_academy .item_event_academy .medium .photo{
+	box-sizing:border-box;
+	width: 40%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+}
+.event_academy .item_event_academy .medium .text{
+	box-sizing:border-box;
+	line-height: 20px;
+	font-size: 14px;
+	padding-right: 15px;
+	text-align: right;
+	vertical-align: top;
+	width: 60%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;	
+}
+.event_academy .item_event_academy .medium .text .name{
+	text-align: left;
+	padding: 15px 0px 15px 0px;
+}
+.event_academy .item_event_academy .medium .text .name .institute{
+	margin-top: 10px;
+}
+.event_academy .item_event_academy .medium div img{
+	box-sizing:border-box;
+	padding: 10px;
+	width: 95%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+}
