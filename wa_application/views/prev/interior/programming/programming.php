@@ -392,7 +392,7 @@
                     <article class="timeline-entry left-aligned ">
                         <div class="timeline-entry-inner ">
                             <time class="timeline-time margen-izquierda" datetime="2014-01-10T03:45">
-                                <span class="hora">8:30-18:00</span>
+                                <span class="hora">8:30am-06:00pm</span>
                                 <span class="hora">Viernes 19</span>
                             </time>
                             <div class="timeline-icon bg-success">
@@ -400,8 +400,8 @@
                             </div>
                             <div class="timeline-label">
                                 <div class="timeline-entry-child" data-target="magistral">
-                                    <h2> OLIMPIADAS SISTÉMICAS 2014 </h2>                                        
-                                    <p>Día de confraternidad entre alumnos y docentes de la escuela, se realizarán eventos como deportes, ginkanas, guerra de mascotas, otros.</p>
+                                    <h2> OLIMPIADA SISTÉMICA 2014 </h2>                                        
+                                    <p>Día de confraternidad entre alumnos y docentes de la escuela, se realizarán eventos como deportes, ginkanas, guerra de mascotas, entre otros.</p>
                                 </div>
                             </div>
                         </div>
@@ -409,7 +409,7 @@
                     <article class="timeline-entry right-aligned" id="desaparece3">
                         <div class="timeline-entry-inner ">
                             <time class="timeline-time margen-derecha" datetime="2014-01-10T03:45">
-                                <span class="hora">23:00-6:00</span>
+                                <span class="hora">10:00pm</span>
                                 <span class="hora">Viernes 19</span>
                             </time>
                             <div class="timeline-icon bg-success">
@@ -418,7 +418,7 @@
                             <div class="timeline-label">
                                 <div class="timeline-entry-child" data-target="magistral">
                                     <h2> GRAN FIESTA DE SISTEMAS </h2>                                        
-                                    <p>Para el cierre de la semana de Aniversario se realizará la fiesta que se dará a cabo en la discoteca OPHERA</p>
+                                    <p>Para el cierre de la semana de Aniversario se realizará la fiesta que se dará a cabo en la Discoteca OPHERA</p>
                                 </div>
                             </div>
                         </div>
