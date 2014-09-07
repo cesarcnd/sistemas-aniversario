@@ -149,7 +149,7 @@
 
 #public .fechcont
 {
-	top: -37px;
+	top: -32px;
 	position: relative
 }
 #public .fechcont .triangle
@@ -219,7 +219,7 @@
 #blq_informative section.body-informative div.item-informative{
 	background-color: #fff;
 	width: 274px;
-	height: 95px;
+	min-height: 95px;
 	border-bottom: 0.08em solid #e0e0e0;
 }
 #blq_programming div.item-programming .image,
@@ -245,7 +245,7 @@
 #blq_programming div.item-programming .content,
 #blq_informative div.item-informative .content{
 	width: 185px;
-	height: 95px;
+	min-height: 95px;
 	padding: 5px 0;
 	
 	webkit-box-sizing: border-box;
@@ -1002,14 +1002,14 @@ input[type="checkbox"]{
 	color: #fff;
 	padding: 0px 10px;
 }
-.sistemas_ico_play:before{content: "\e620";font-size: 22px;}
-.sistemas_ico_pause:before{content: "\e621";font-size: 22px;}
-.sistemas_ico_stop:before{content: "\e622";font-size: 22px;}
-.sistemas_ico_complete:before{content: "\e618";font-size: 22px;}
+.sistemas_ico_play:before{content: "\e621";font-size: 22px;}
+.sistemas_ico_pause:before{content: "\e622";font-size: 22px;}
+.sistemas_ico_stop:before{content: "\e623";font-size: 22px;}
+.sistemas_ico_complete:before{content: "\e619";font-size: 22px;}
 .line_time{
 	background-position: -7px -112px;
 	height: 20px;
-	width: 265px;
+	width: 264px;
 	margin: 0px 6px;
 }
 .multimedia .camera_target_content .camera_link{

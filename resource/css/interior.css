@@ -1,5 +1,5 @@
 .b-body .left-body{
-	height: 844px;
+	min-height: 844px;
 	padding: 50px 20px 0px 20px;
 	box-sizing:border-box;
 	-webkit-box-sizing:border-box;
@@ -181,9 +181,12 @@
 	font-size: 14px;
 	font-weight: bold;
 }
+.event_academy .item_event_academy .sub div.month_c{
+	width: 46%;
+}
 .event_academy .item_event_academy .sub div{
 	box-sizing:border-box;
-	width: 50%;
+	width: 54%;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	-o-box-sizing:border-box;
@@ -198,8 +201,16 @@
 	-o-box-sizing:border-box;
 	-ms-box-sizing:border-box;
 }
+.event_academy .item_event_academy .medium .text .institute{
+	color: #333;
+}
+.event_academy .item_event_academy .medium .text .experience{
+	font-style: italic;
+	color: #555;
+}
 .event_academy .item_event_academy .medium .text{
 	box-sizing:border-box;
+	color: #111;
 	line-height: 20px;
 	font-size: 14px;
 	padding-right: 15px;
