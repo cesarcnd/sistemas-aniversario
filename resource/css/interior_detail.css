@@ -302,7 +302,7 @@ body{
                     }
 
             .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
-                background: #fff;
+                background: #2489CC;
                 color: #737881;
                 display: block;
                 width: 40px;
@@ -330,7 +330,7 @@ body{
                 }
 
                 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-danger {
-                    background-color: #cc2424;
+                    background-color: #2489CC;
                     color: #fff;
                 }
 
