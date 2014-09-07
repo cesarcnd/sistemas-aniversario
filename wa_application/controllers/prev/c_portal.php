@@ -41,14 +41,19 @@ class C_portal extends CI_Controller {
 		
 		if($estudiante!=''){
 			$result=$this->m_portal->setInsertAttendanceStudent($attendance,$id_event_academy,$dni);
-			$this->DATA['text']="Hola! $attendance, la pre - inscripción se ha realizado con éxito, el pago lo puede realizar a su delegado";
+			if($result!=null){
+				$this->DATA['text']="Hola! $attendance, la pre - inscripción se ha realizado con éxito, el pago lo puede realizar a su delegado";
+			}
+			else{
+				$this->DATA['text']="No existe ninguna coincidencia, vuelva a intentar";	
+			}
 		}else{
 			$result=$this->m_portal->setInsertAttendanceNew($attendance,$id_event_academy,$dni);
 			$this->DATA['text']="Hola! $attendance, la pre - inscripción se ha realizado con éxito, el pago lo puede realizar el mismo día del evento";
 		}
 		
-		if($result){
+		
 			$this->load->view('prev/module/list/inscription/l_success_inscription',$this->DATA);
-		}
+		
 	}
 }

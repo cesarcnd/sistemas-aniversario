@@ -11,9 +11,6 @@
 		<link rel="stylesheet" href="<?php echo base_url()?>resource/css/interior_detail.css" type="text/css">
 		<script src="<?php echo base_url()?>resource/js/jquery-1.9.1.min.js"></script>
 
-		<script type="text/javascript" src="<?php echo base_url()?>resource/js/like.js"></script>
-		<script type="text/javascript" src="<?php echo base_url()?>resource/js/tweet.js"></script>
-		
 		<script type="text/javascript" src="<?php echo base_url()?>resource/js/jquery-collapsible.min.js"></script>
 		<script>base_url="<?php echo base_url()?>"</script>
 	</head>

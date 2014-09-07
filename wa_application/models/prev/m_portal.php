@@ -25,14 +25,18 @@ class M_portal extends CI_Model{
 	function setInsertAttendanceStudent($attendance,$id_event_academy,$dni){
 		$this->load->database();
 		$queyConsult=$this->db->select('pe.id_person');
-		$this->db->where('pe.number_document',$dni);
+		$this->db->where('pe.code_university',$dni);
 		$queyConsult=$this->db->get('wa_person pe');
 		$queyConsult=$queyConsult->result_array(); 
-		$idPerson = $queyConsult[0]['id_person'];
+		if(count($queyConsult)>0){
+			$idPerson = $queyConsult[0]['id_person'];
 
-		$data = array('id_person'=>$idPerson,'id_event_academy'=>$id_event_academy,'status'=>'P','active'=>'1');
-		$result = $this->db->insert('wa_event_academy_attendance',$data);
-		return $result;
+			$data = array('id_person'=>$idPerson,'id_event_academy'=>$id_event_academy,'status'=>'P','active'=>'1');
+			$result = $this->db->insert('wa_event_academy_attendance',$data);
+			return $result;
+		}else{
+			return null;
+		}
 	}
 
 	function setInsertAttendanceNew($attendance,$id_event_academy,$dni){

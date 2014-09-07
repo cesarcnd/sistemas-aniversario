@@ -15,7 +15,7 @@
 				<input class="dato" name="attendance" type="text" placeholder="Apellidos y Nombres" onkeydown="return deletePaste(event)" onkeypress="return isLetter(event)" required />
 			</div>
 			<div>
-				<input class="dato" name="dni" type="text" maxlength="8" placeholder="N&uacute;mero de DNI" onkeydown="return deletePaste(event)" onkeypress="return isNumeric(event)" required />
+				<input class="dato" name="dni" type="text" maxlength="10" placeholder="Carnet o DNI" onkeydown="return deletePaste(event)" onkeypress="return isNumeric(event)" required />
 			</div>
 			<div>
 				<input list="eventos" class="dato" id="theme" placeholder="Seleccionar..." >
