@@ -45,7 +45,7 @@
                     </article>
                     
                     <div class="col-xs-8 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8  col-lg-8 pull-right ">
-                        <div class="timeline-icon1 bg-info">
+                        <div class="timeline-icon6 bg-info">
                             <i class="entypo-camera">Lunes 15</i>
                         </div>
                     </div>

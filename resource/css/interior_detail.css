@@ -13,12 +13,12 @@ body{
 
 .margen-derecha{
     padding-right: 2em !important;
-    left: -120px !important;
+    left: -150px !important;
 }
 
 .margen-izquierda{
     padding-left: 2em;
-    right: -120px !important;
+    right: -150px !important;
 }
 
     .timeline-centered {
@@ -128,7 +128,7 @@ body{
     font-size: 15px;
     width: 25%;
     margin-bottom: 20px;
-    position: relative; left: 370px; top: 383px;
+    position: relative; left: 370px; top: 1235px;
     }
     .timeline-centered .timeline-icon3 {
     background: #BAD0DF;
@@ -150,7 +150,7 @@ body{
     font-size: 15px;
     width: 25%;
     margin-bottom: 20px;
-    position: relative; left: 370px; top: 790px;
+    position: relative; left: 370px; top: 2307px;
     }
     .timeline-centered .timeline-icon4 {
     background: #BAD0DF;
@@ -172,7 +172,7 @@ body{
     font-size: 15px;
     width: 25%;
     margin-bottom: 20px;
-    position: relative; left: 370px; top: 1160px;
+    position: relative; left: 370px; top: 2729px;
     }
     .timeline-centered .timeline-icon5 {
     background: #BAD0DF;
@@ -194,9 +194,30 @@ body{
     font-size: 15px;
     width: 25%;
     margin-bottom: 20px;
-    position: relative; left: 370px; top: 1600px;
+    position: relative; left: 370px; top: 3685px;
     }
-    
+    .timeline-centered .timeline-icon6 {
+    background: #BAD0DF;
+    font-weight: bold;
+    color: #737881;
+    display: block;
+    height:  30px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 0px;
+    text-align: center;
+    -moz-box-shadow: 0 0 0 5px #f5f5f6;
+    -webkit-box-shadow: 0 0 0 5px #f5f5f6;
+    box-shadow: 0 0 0 5px #f5f5f6;
+    line-height: 35px;
+    font-size: 15px;
+    width: 25%;
+    margin-bottom: 20px;
+    position: relative; left: 370px; top: 157px;
+    }
     
 /* Propiedades */
 .relleno-arriba-uno {
