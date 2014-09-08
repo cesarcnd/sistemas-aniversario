@@ -12,6 +12,7 @@
 .b-body .right-body{
 	background-color: #E0E0E0;
 	width: 333px;
+	vertical-align: top;
 }
 #browser ul li.list ul.sub_list{
 	background-color: rgba(42,128,156,1);
@@ -30,8 +31,8 @@
 }
 #gallery_foto_detail .item img,#gallery_foto .item img,#video_all .item img{
 	position: relative;
-	top: -40px;
-	width: 100%;
+	left: -38px;
+	width: 125%;
 }
 #gallery_foto_detail .item,#gallery_foto .item,#video_all .item{
 	height: 240px;
@@ -240,7 +241,7 @@
 }
 /*Noticia_General*/
 #noticia_general{
-	height: 807px;
+	min-height: 807px;
 	width: 667px;
 	position: relative;
 	float: left;
